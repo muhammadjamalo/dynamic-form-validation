@@ -1,0 +1,110 @@
+footer {
+    .bg {
+        height: 130px;
+        width: 100%;
+        position: relative;
+        &:after {
+            position: absolute;
+            content: "";
+            height: 100%;
+            width: 30%;
+            background: $primary;
+            top: 0px;
+            left: 0px;
+        }
+        &:before {
+            position: absolute;
+            content: "";
+            height: 100%;
+            width: 70%;
+            background: #0a82be;
+            top: 0px;
+            right: 0px;
+        }
+        span {
+            position: absolute;
+            top: 0px;
+            left: 30%;
+            width: 130px;
+            height: 100%;
+            display: block;
+            background: $secondary;
+            svg {
+                color: #f0252b;
+                width: 100%;
+                position: absolute;
+                top: -4px;
+                left: -4px;
+                transform: rotate(180deg);
+            }
+            &.pink {
+                background: #f292bc;
+                left: calc(30% + 130px)
+            }
+        }
+    }
+    .flex-row {
+        @include flex(center, space-between);
+        margin-top: rem(75px);
+        margin-bottom: rem(32px);
+    }
+    .footer-logo {
+        img {
+            transition: all 0.5s;
+            width: 110px;
+            margin-left: -5px;
+        }
+    }
+    ul {
+        @include flex(center, end);
+        list-style: none;
+        li {
+            &:not(:last-child) {
+                margin-right: rem(75px);
+                @media screen and (max-width: 991px) {
+                    margin-right: rem(40px);
+                }
+            }
+            a {
+                color: #ffffff;
+                font-size: rem(19.37px);
+                font-weight: 600;
+                &:hover {
+                    color: #f77d1a;
+                    text-decoration: none;
+                }
+            }
+        }
+    }
+    .copyright {
+        font-size: rem(13.59px);
+        color: #ffffff;
+        margin-bottom: rem(42px);
+        @media screen and (max-width: 767px) {
+            text-align: center;
+        }
+    }
+}
+
+@media screen and (max-width:575px) {
+    footer {
+        .flex-row {
+            flex-direction: column!important;
+        }
+        .footer-logo {
+            margin-bottom: 40px;
+        }
+        ul {
+            flex-direction: column;
+            li {
+                &:not(:last-child) {
+                    margin-right: 0;
+                    margin-bottom: 20px;
+                }
+                &:last-child {
+                    margin-bottom: 10px;
+                }
+            }
+        }
+    }
+}

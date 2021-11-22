@@ -1,0 +1,134 @@
+// .booking{
+//     .filter__item{
+//         align-items: self-start;
+//         &--button{
+//             flex: 0 0 165px;
+//             max-width: 165px;
+//         }
+//     }
+//     .filter__options{
+//         align-items: self-start;
+//     }
+// }
+.dashboard {}
+
+// .flat-page {
+//     h3 {
+//         color: $primary;
+//         font-size: rem(21px);
+//         margin-left: rem(55px);
+//         padding: rem(15px) 0 rem(15px) rem(33px);
+//         text-transform: uppercase;
+//         line-height: 1.5;
+//         position: relative;
+//         &:before {
+//             content: "";
+//             position: absolute;
+//             border: 5px solid $primary;
+//             background: $primary;
+//             height: 100%;
+//             left: 0px;
+//             top: 50%;
+//             transform: translateY(-50%);
+//             border-top-right-radius: 15px;
+//             border-bottom-right-radius: 15px;
+//         }
+//     }
+//     span {
+//         font-size: rem(44px);
+//         font-family: 'fontinbold';
+//         color: #a8372d;
+//         line-height: 0;
+//     }
+//     p {
+//         text-align: justify;
+//     }
+// }
+// .contact-us {
+//     .adress__wrapper {
+//         width: 100%;
+//         position: relative;
+//         border-radius: 20px;
+//         overflow: hidden;
+//         display: flex;
+//         margin-bottom: rem(55px);
+//         &--map {
+//             height: 350px;
+//             flex: 1;
+//             position: relative;
+//             &:after {
+//                 content: "";
+//                 position: absolute;
+//                 width: 100%;
+//                 height: 100%;
+//                 left: 0;
+//                 top: 0;
+//                 -webkit-box-shadow: inset 0px 0px 23px -10px rgba(0, 0, 0, 0.75);
+//                 -moz-box-shadow: inset 0px 0px 23px -10px rgba(0, 0, 0, 0.75);
+//                 box-shadow: inset 0px 0px 23px -10px rgba(0, 0, 0, 0.75);
+//             }
+//             iframe {
+//                 width: 100%;
+//                 height: 100%;
+//                 border: 0;
+//             }
+//         }
+//         .contact__info {
+//             flex: 0 0 370px;
+//             max-width: 370px;
+//             @include flex (center, center);
+//             background: #f3f7f9;
+//             position: relative;
+//             &:before {
+//                 content: "";
+//                 position: absolute;
+//                 width: 0;
+//                 height: 0;
+//                 border-top: 20px solid transparent;
+//                 border-bottom: 20px solid transparent;
+//                 border-right: 20px solid #f3f7f9;
+//                 left: -20px;
+//                 bottom: 120px;
+//             }
+//             ul {
+//                 padding: 0 rem(70px);
+//                 padding-right: rem(50px);
+//                 li {
+//                     font-size: rem(18px);
+//                     font-family: 'fontinbold';
+//                     color: #6f6f6f;
+//                     padding-left: rem(50px);
+//                     line-height: 1.4;
+//                     position: relative;
+//                     &:before {
+//                         content: "";
+//                         position: absolute;
+//                         background-image: url("data:image/svg+xml, %3Csvg enable-background='new 0 0 24 24' fill='%2389201a' height='512' viewBox='0 0 24 24' width='512' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath d='m12 0c-4.962 0-9 4.066-9 9.065 0 7.103 8.154 14.437 8.501 14.745.143.127.321.19.499.19s.356-.063.499-.189c.347-.309 8.501-7.643 8.501-14.746 0-4.999-4.038-9.065-9-9.065zm0 14c-2.757 0-5-2.243-5-5s2.243-5 5-5 5 2.243 5 5-2.243 5-5 5z'/%3E%3C/svg%3E");
+//                         width: 35px;
+//                         height: 35px;
+//                         background-size: cover;
+//                         left: 0;
+//                         top: 0;
+//                     }
+//                     &:not(:last-child) {
+//                         margin-bottom: rem(35px);
+//                     }
+//                     &.mail {
+//                         &:before {
+//                             background-image: url("data:image/svg+xml,%0A%3Csvg xmlns='http://www.w3.org/2000/svg' xmlns:xlink='http://www.w3.org/1999/xlink' width='30px' height='21px'%3E%3Cpath fill-rule='evenodd' fill='rgb(168, 55, 45)' d='M27.363,-0.000 L2.637,-0.000 C1.180,-0.000 -0.000,1.208 -0.000,2.699 L-0.000,18.300 C-0.000,19.791 1.180,21.000 2.637,21.000 L27.363,21.000 C28.819,21.000 30.000,19.791 30.000,18.300 L30.000,2.699 C30.000,1.208 28.819,-0.000 27.363,-0.000 ZM25.253,15.443 C24.884,15.765 24.329,15.719 24.014,15.340 L18.942,9.233 L15.435,11.281 C15.166,11.439 14.834,11.439 14.564,11.281 L11.058,9.233 L5.985,15.340 C5.671,15.719 5.116,15.765 4.746,15.443 C4.377,15.121 4.332,14.553 4.646,14.174 L9.505,8.325 L5.189,5.804 C4.768,5.558 4.621,5.008 4.861,4.577 C5.102,4.145 5.639,3.995 6.060,4.241 C6.418,4.450 14.597,9.228 15.000,9.463 C15.403,9.228 23.581,4.450 23.939,4.241 C24.361,3.994 24.898,4.145 25.138,4.577 C25.379,5.008 25.232,5.558 24.810,5.804 L20.495,8.325 L25.353,14.174 C25.668,14.553 25.623,15.121 25.253,15.443 Z'%3E%3C/path%3E%3C/svg%3E%0A");
+//                             width: 33px;
+//                             height: 23px;
+//                         }
+//                     }
+//                     &.number {
+//                         &:before {
+//                             background-image: url("data:image/svg+xml,%0A%3Csvg id='Layer_1' data-name='Layer 1' fill='%23a8372d' xmlns='http://www.w3.org/2000/svg' xmlns:xlink='http://www.w3.org/1999/xlink' viewBox='0 0 405.33 405.33'%3E%3Cdefs%3E%3Cstyle%3E.cls-1%7Bfill:none;%7D.cls-2%7Bclip-path:url(%23clip-path);%7D%3C/style%3E%3CclipPath id='clip-path' transform='translate(0 0)'%3E%3Crect class='cls-1' width='405.33' height='405.33'/%3E%3C/clipPath%3E%3C/defs%3E%3Ctitle%3Ephone%3C/title%3E%3Cg class='cls-2'%3E%3Cpath d='M373.33,266.88a231.68,231.68,0,0,1-72.7-11.56c-11.33-3.91-24.19-.9-31.64,6.7l-46,34.75c-52.8-28.18-86.6-61.95-114.39-114.37l33.81-44.93a32.28,32.28,0,0,0,7.91-32.64A231.7,231.7,0,0,1,138.67,32a32,32,0,0,0-32-32H32A32,32,0,0,0,0,32C0,237.85,167.49,405.33,373.33,405.33a32,32,0,0,0,32-32V298.88a32,32,0,0,0-32-32' transform='translate(0 0)'/%3E%3C/g%3E%3C/svg%3E");
+//                             width: 28px;
+//                             height: 28px;
+//                         }
+//                     }
+//                 }
+//             }
+//         }
+//     }
+// }

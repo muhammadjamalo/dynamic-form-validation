@@ -1,0 +1,56 @@
+@import 'functions';
+
+
+
+
+@font-face {
+    font-family: 'NotoKufiArabicBold';
+    src: url('../fonts/NotoKufiArabicBold/NotoKufiArabicBold.eot');
+    src: url('../fonts/NotoKufiArabicBold/NotoKufiArabicBold.eot') format('embedded-opentype'), url('../fonts/NotoKufiArabicBold/NotoKufiArabicBold.woff2') format('woff2'), url('../fonts/NotoKufiArabicBold/NotoKufiArabicBold.woff') format('woff'), url('../fonts/NotoKufiArabicBold/NotoKufiArabicBold.ttf') format('truetype'), url('../fonts/NotoKufiArabicBold/NotoKufiArabicBold.svg#NotoKufiArabicBold') format('svg');
+}
+
+// Theme Colors
+$default: #ffffff;
+$primary: #f77d1a;
+$secondary: #302f37;
+$text-color: #ffffff;
+$link-color: #f77d1a;
+$link-hover:#ffffff;
+// Fonts
+$primary-font: 'Poppins',
+sans-serif;
+$arabic-font: '';
+//** Primary Font
+// font sizes
+$h--1: ( base: rem(45px),
+mobile: rem(30px),
+tablet: rem(35px),
+wide: rem(45px),
+);
+$h--2: ( base: rem(38px),
+mobile: rem(25px),
+tablet: rem(30px),
+wide: rem(38px));
+$h--3: ( base: rem(20px),
+mobile: rem(16px),
+tablet: rem(18px),
+wide: rem(20px));
+$h--4: ( base: rem(16px),
+mobile: rem(14px),
+tablet: rem(15px),
+wide: rem(16px));
+$h--5: ( base: rem(24px),
+mobile: rem(20px),
+tablet: rem(22px),
+wide: rem(24px));
+$h--6: ( base: rem(24px),
+mobile: rem(20px),
+tablet: rem(22px),
+wide: rem(24px));
+$p: rem(20px);
+$p--large: rem(20px);
+$p--medium: rem(16px);
+$p--small: rem(12px);
+$breakpoints: ( mobile: 414px,
+tablet: 991px,
+wide: 1300px) !default;

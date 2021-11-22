@@ -1,0 +1,137 @@
+.hidden{
+    display: none;
+}
+
+.ar .companies__list {
+    direction: ltr;
+}
+/*
+.error-page{
+    text-align: center;
+    margin-top: 150px;
+    margin-bottom: 35px;
+}
+
+.error-page .inline-buttons a.btn{
+    font-size: 20px;
+    background-color: #f77d1a;
+    margin: 0px 20px;
+}
+.error-page .inline-buttons a.btn:hover{ 
+    background: #a8372d;
+    color: #FFF;
+}*/
+
+.error-page {
+        text-align: center;
+        padding: 50px 0;
+    }
+    
+    .error-page .image img {
+        width: 220px;
+    }
+    
+    .error-page .desc h1 {
+         color: #000000;
+        margin-top: 17px;
+         margin-bottom: 10px;
+        letter-spacing: 3px;
+     }
+     
+     .error-page .desc h3 {
+         color: #302f34;
+          margin-bottom: 22px;
+     }
+     
+    .error-page .desc p {
+         color: #827e7e;
+         line-height: 26px;
+        font-weight: 300;
+     }
+     
+     .error-page .desc p a {
+         color: #ef242b;
+        text-decoration: underline;
+     }
+    
+    .error-page .desc p a:hover {
+         color: #f77c1a;
+     }
+     
+    
+    .error-page {
+        background: #ed7d23;
+       background-size: contain;
+        color: #302f37!important;
+        text-align: center;
+        padding-top: 70px;
+        /* padding: 400px 0 90px 0; */
+    }
+
+    @media (min-width: 1600px){
+        .error-page {
+        padding-top: 210px;
+        }
+    }
+     
+     .error-page img {
+         max-width: 100%;
+    }
+     
+     .error-page h1 {
+         font-size: 51.77px;
+         font-weight: 800;
+         margin-bottom: 5px;
+         color: #FFF;
+     }
+    
+    .error-page p {
+         font-size: 21.8px;
+        font-weight: 500;
+        margin-bottom: 25px;
+     }
+     
+    .error-page a {
+        background: #ffffff;
+        font-size: 17.62px;
+        text-transform: uppercase;
+        font-weight: 500;
+        color: #000000;
+        border-radius: 0;
+        min-width: 140px;
+       height: 55px;
+        line-height: normal;
+        transition: .3s all ease-in-out;
+         box-shadow: 0px 6px 8px 2px rgba(0, 0, 0, 0.3);
+     }
+     
+     .error-page a:not(:last-child) {
+         margin-right: 20px;
+     }
+     
+    .error-page a:hover,
+    .error-page a:focus {
+        background: #e1262d;
+        color: #ffffff!important;
+     }
+     
+    @media screen and (max-width: 991px) {
+        .error-page h1 {
+            font-size: 45px;
+        }
+     }
+    
+    @media screen and (max-width: 767px) {
+        .error-page h1 {
+            font-size: 40px;
+        }
+        .error-page p {
+           font-size: 18px;
+       }
+     }
+
+@media (max-width: 768px){
+    .error-page img{
+        width: 100%;
+    }
+}

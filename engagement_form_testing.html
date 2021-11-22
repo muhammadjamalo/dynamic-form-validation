@@ -1,0 +1,813 @@
+<!-- {% load static %} -->
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1, shrink-to-fit=no">
+  <!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+  <!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+  <!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+  <title>Ottu</title>
+  <!--Poppins Font-->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800;900&display=swap"
+    rel="stylesheet">
+  <!-- Bootstrap CSS File -->
+  <link rel="stylesheet" type="text/css" href="new_assets/form/css/bootstrap.mini.css">
+  <!-- FontAwesome Files -->
+  <link rel="stylesheet" type="text/css" href="new_assets/form/css/font-awesome.min.css">
+  <!-- Main Stylesheet File -->
+  <link rel="stylesheet" type="text/css" href="new_assets/form/css/main.css">
+  
+</head>
+<header>
+  <div class="container-fluid">
+    <div class="container">
+      <img src="new_assets/images/ottu-logo.svg" alt="logo">
+    </div>
+  </div>
+</header>
+
+<body>
+
+  <form id="engagement-form" >
+    <!-- {% csrf_token %} -->
+    <div id="page-1">
+      <progress value="50" max="100"></progress>
+      <input type="hidden" class="uuid" value="{% url 'engagement:recieve' uuid %}" />
+      <div class="container">
+        <div class="following">
+          <p class="follow">
+            <span class="num">1.</span> As Ottu’s Valuable Partner, please rate your level of satisfaction for the
+            following:
+          </p>
+          <div class="follow-details">
+
+            <div class="follow-lists">
+
+          
+              <ul class="list-unstyled follow-list-details to-validate">
+                <li class="parent-title">Value for Money</li>
+                <li>poor </li>
+                <!-- {% comment %} 
+                  replace the below input with count of the radios buttons (fields)
+                 {% endcomment %} -->
+                <input class="only-radio-fields-length" type="hidden" value="15" />
+                <li class="form-check">
+                <!-- {% comment %} 
+                  add a class "only-radio-button" to the radio input button ONLY RADIO
+                {% endcomment %} -->
+                  <input class="circle only-radio-button" name="value_for_money" type="radio" value="1" id="defaultCheck1">
+                  <label for="defaultCheck1"></label>
+                </li>
+                <li class="form-check">
+                  <input class=" circle only-radio-button" name="value_for_money" type="radio" value="2" id="defaultCheck2">
+                  <label for="defaultCheck2"></label>
+
+
+                </li>
+                <li class="form-check">
+                  <input class=" circle only-radio-button" name="value_for_money" type="radio" value="3" id="defaultCheck3">
+                  <label for="defaultCheck3"></label>
+
+                </li>
+                <li class="form-check">
+                  <input class=" circle only-radio-button" name="value_for_money" type="radio" value="4" id="defaultCheck4">
+                  <label for="defaultCheck4"></label>
+
+
+                </li>
+                <li class="form-check">
+                  <input class="circle only-radio-button" name="value_for_money" type="radio" value="5" id="defaultCheck5">
+                  <label for="defaultCheck5"></label>
+
+                </li>
+
+                </li>
+                <li> Excellent</li>
+              </ul>
+              <ul class="list-unstyled follow-list-details-second to-validate">
+                <li>Onboarding Experience</li>
+
+                <li>poor </li>
+                <li class="form-check">
+                  <input class="circle only-radio-button" name="on_boarding_experiance" type="radio" value="1" id="defaultCheck6">
+                  <label for="defaultCheck6"></label>
+
+
+                </li>
+                <li class="form-check">
+                  <input class=" circle only-radio-button" name="on_boarding_experiance" type="radio" value="2" id="defaultCheck7">
+                  <label for="defaultCheck7"></label>
+
+
+                </li>
+                <li class="form-check">
+                  <input class=" circle only-radio-button" name="on_boarding_experiance" type="radio" value="3" id="defaultCheck8">
+                  <label for="defaultCheck8"></label>
+
+
+                </li>
+                <li class="form-check">
+                  <input class=" circle only-radio-button" name="on_boarding_experiance" type="radio" value="4" id="defaultCheck9">
+                  <label for="defaultCheck9"></label>
+
+
+                </li>
+                <li class="form-check">
+                  <input class="circle only-radio-button" name="on_boarding_experiance" type="radio" value="5" id="defaultCheck10">
+                  <label for="defaultCheck10"></label>
+
+
+                </li>
+
+                <li> Excellent</li>
+
+
+              </ul>
+              <ul class="list-unstyled follow-list-details-third poor to-validate">
+                <li>Professional Support</li>
+
+                <li>poor </li>
+
+                <li class="form-check">
+                  <input class="form-check-input circle only-radio-button" name="professional_support" type="radio" value="1"
+                    id="defaultCheck11">
+                  <label for="defaultCheck11"></label>
+
+
+                </li>
+                <li class="form-check">
+                  <input class="form-check-input circle only-radio-button" name="professional_support" type="radio" value="2"
+                    id="defaultCheck12">
+                  <label for="defaultCheck12"></label>
+
+
+                </li>
+                <li class="form-check">
+                  <input class="form-check-input circle only-radio-button" type="radio" name="professional_support" value="3"
+                    id="defaultCheck13">
+                  <label for="defaultCheck13"></label>
+
+
+                </li>
+                <li class="form-check">
+                  <input class="form-check-input circle only-radio-button" type="radio" name="professional_support" value="4"
+                    id="defaultCheck14">
+                  <label for="defaultCheck14"></label>
+
+
+                </li>
+                <li class="form-check">
+                  <input class="form-check-input circle only-radio-button" type="radio" name="professional_support" value="5"
+                    id="defaultCheck15">
+                  <label for="defaultCheck15"></label>
+                </li>
+                <li> Excellent</li>
+              </ul>
+            </div>
+          </div>
+          <div class="following main">
+            <p class="follow">
+              <span class="num">2.</span> Please check the Ottu features you are currently using and rate your level of
+              satisfaction for the following:
+            </p>
+            <div class="follow-details">
+
+              <div id="second-list" class="follow-lists">
+                <ul class="list-unstyled follow-list-details to-validate">
+                  <li class="direct  form-check">
+                    <input class="form-check-input main" type="checkbox" value="" id="defaultCheckmain">
+                    <label for="defaultCheckmain"><span class="follow-title active changeme">Direct
+                        Integration</span></label>
+                  </li>
+
+                  <li class="active changeme"><span>Not Satisfied</span></li>
+
+                  <li class="form-check">
+                    <input class="form-check-input circle1 " type="radio" name="direct_integration" value="1"
+                      id="defaultCheck16">
+                    <label class="orange1" for="defaultCheck16"></label>
+
+
+                  </li>
+                  <li class="form-check">
+                    <input class="form-check-input circle1" type="radio" name="direct_integration" value="2"
+                      id="defaultCheck17">
+                    <label class="orange1" for="defaultCheck17"></label>
+
+
+                  </li>
+                  <li class="form-check">
+                    <input class="form-check-input circle1" type="radio" name="direct_integration" value="3"
+                      id="defaultCheck18">
+                    <label class="orange1" for="defaultCheck18"></label>
+
+
+                  </li>
+                  <li class="form-check">
+                    <input class="form-check-input circle1" type="radio" name="direct_integration" value="4"
+                      id="defaultCheck19">
+                    <label class="orange1" for="defaultCheck19"></label>
+
+
+                  </li>
+                  <li class="form-check">
+                    <input class="form-check-input circle1" type="radio" name="direct_integration" value="5"
+                      id="defaultCheck20">
+                    <label class="orange1" for="defaultCheck20"></label>
+
+
+                  </li>
+                  <li class="active changeme"><span>Extremely Satsified</span></li>
+
+
+                </ul>
+                <ul class="list-unstyled follow-list-details-second">
+                  <li class=" form-check"> <input class="form-check-input main" type="checkbox" value=""
+                      id="defaultCheckmain1">
+                    <label for="defaultCheckmain1"><span class="follow-title active1 changeme1">Pay by
+                        Link</span></label>
+                  </li>
+
+                  <li class="active1 changeme1"><span>Not Satisfied</span></li>
+
+                  <li class="form-check">
+                    <input class="form-check-input circle2" type="radio" name="pay_by_link" value="1"
+                      id="defaultCheck21">
+                    <label class="orange2" for="defaultCheck21"></label>
+
+
+                  </li>
+                  <li class="form-check">
+                    <input class="form-check-input circle2" type="radio" name="pay_by_link" value="2"
+                      id="defaultCheck22">
+                    <label class="orange2" for="defaultCheck22"></label>
+
+
+                  </li>
+                  <li class="form-check">
+                    <input class="form-check-input circle2" type="radio" name="pay_by_link" value="3"
+                      id="defaultCheck23">
+                    <label class="orange2" for="defaultCheck23"></label>
+
+
+                  </li>
+                  <li class="form-check">
+                    <input class="form-check-input circle2" type="radio" name="pay_by_link" value="4"
+                      id="defaultCheck24">
+                    <label class="orange2" for="defaultCheck24"></label>
+
+
+                  </li>
+                  <li class="form-check">
+                    <input class="form-check-input circle2" type="radio" name="pay_by_link" value="5"
+                      id="defaultCheck25">
+                    <label class="orange2" for="defaultCheck25"></label>
+
+
+                  </li>
+                  <li class="active1 changeme1"><span>Extremely Satsified</span></li>
+
+
+                </ul>
+                <ul class="list-unstyled follow-list-details-third">
+                  <li class="direct  form-check"><input class="form-check-input main" type="checkbox" value=""
+                      id="defaultCheckmain2">
+                    <label for="defaultCheckmain2"><span class="follow-title active2 changeme2">Bulk Pay by
+                        Link</span></label>
+                  </li>
+
+                  <li class="active2 changeme2"><span>Not Satisfied</span> </li>
+
+                  <li class="form-check">
+                    <input class="form-check-input circle3" type="radio" name="bulk_pay_by_link" value="1"
+                      id="defaultCheck26">
+                    <label class="orange3" for="defaultCheck26"></label>
+
+
+                  </li>
+                  <li class="form-check">
+                    <input class="form-check-input circle3" type="radio" name="bulk_pay_by_link" value="2"
+                      id="defaultCheck27">
+                    <label class="orange3" for="defaultCheck27"></label>
+
+
+                  </li>
+                  <li class="form-check">
+                    <input class="form-check-input circle3" type="radio" name="bulk_pay_by_link" value="3"
+                      id="defaultCheck28">
+                    <label class="orange3" for="defaultCheck28"></label>
+
+
+                  </li>
+                  <li class="form-check">
+                    <input class="form-check-input circle3" type="radio" name="bulk_pay_by_link" value="4"
+                      id="defaultCheck29">
+                    <label class="orange3" for="defaultCheck29"></label>
+
+
+                  </li>
+                  <li class="form-check">
+                    <input class="form-check-input circle3" type="radio" name="bulk_pay_by_link" value="5"
+                      id="defaultCheck30">
+                    <label class="orange3" for="defaultCheck30"></label>
+
+
+                  </li>
+                  <li class="active2 changeme2"><span> Extremely Satsified</span></li>
+
+
+                </ul>
+                <ul class="list-unstyled follow-list-details-third">
+                  <li class="form-check"> <input class="form-check-input main" type="checkbox" id="defaultCheckmain3">
+                    <label for="defaultCheckmain3"><span class="follow-title active3 changeme3">Customer
+                        Payment</span><br>
+                      <span class="follow-qr changeme3">-QR code</span></label>
+                  </li>
+
+                  <li class="active3 changeme3"><span>Not Satisfied</span> </li>
+
+                  <li class="form-check">
+                    <input class="form-check-input circle4" type="radio" name="customer_payment" value="1"
+                      id="defaultCheck31">
+                    <label class="orange4" for="defaultCheck31"></label>
+
+                  </li>
+                  <li class="form-check">
+                    <input class="form-check-input circle4" type="radio" name="customer_payment" value="2"
+                      id="defaultCheck32">
+                    <label class="orange4" for="defaultCheck32"></label>
+
+
+                  </li>
+                  <li class="form-check">
+                    <input class="form-check-input circle4" type="radio" name="customer_payment" value="3"
+                      id="defaultCheck33">
+                    <label class="orange4" for="defaultCheck33"></label>
+
+
+                  </li>
+                  <li class="form-check">
+                    <input class="form-check-input circle4" type="radio" name="customer_payment" value="4"
+                      id="defaultCheck34">
+                    <label class="orange4" for="defaultCheck34"></label>
+
+
+                  </li>
+                  <li class="form-check">
+                    <input class="form-check-input circle4" type="radio" name="customer_payment" value="5"
+                      id="defaultCheck35">
+                    <label class="orange4" for="defaultCheck35"></label>
+
+
+                  </li>
+                  <li class="active3 changeme3"><span> Extremely Satsified</span></li>
+
+
+                </ul>
+                <ul class="list-unstyled follow-list-details-third">
+                  <li class=" form-check"><input class="form-check-input main" type="checkbox" value=""
+                      id="defaultCheckmain4">
+                    <label for="defaultCheckmain4"><span class="follow-title active4 changeme4">Event &
+                        Booking</span></label>
+                  </li>
+
+                  <li class="active4 changeme4"><span>Not Satisfied </span></li>
+
+                  <li class="form-check">
+                    <input class="form-check-input circle5" type="radio" name="event_and_booking" value="1"
+                      id="defaultCheck36">
+                    <label class="orange5" for="defaultCheck36"></label>
+
+
+                  </li>
+                  <li class="form-check">
+                    <input class="form-check-input circle5" type="radio" name="event_and_booking" value="2"
+                      id="defaultCheck37">
+                    <label class="orange5" for="defaultCheck37"></label>
+
+
+                  </li>
+                  <li class="form-check">
+                    <input class="form-check-input circle5" type="radio" name="event_and_booking" value="3"
+                      id="defaultCheck38">
+                    <label class="orange5" for="defaultCheck38"></label>
+
+
+                  </li>
+                  <li class="form-check">
+                    <input class="form-check-input circle5" type="radio" name="event_and_booking" value="4"
+                      id="defaultCheck39">
+                    <label class="orange5" for="defaultCheck39"></label>
+
+
+                  </li>
+                  <li class="form-check">
+                    <input class="form-check-input circle5" type="radio" name="event_and_booking" value="5"
+                      id="defaultCheck40">
+                    <label class="orange5" for="defaultCheck40"></label>
+
+
+                  </li>
+                  <li class="active4 changeme4"><span> Extremely Satsified</span></li>
+
+
+                </ul>
+                <ul class="list-unstyled follow-list-details-third">
+                  <li class="direct form-check"><input class="form-check-input main" type="checkbox" value="main"
+                      id="defaultCheckmain5">
+                    <label for="defaultCheckmain5"><span
+                        class="follow-title active5 changeme5">eCatalogue</span></label>
+                  </li>
+
+                  <li class="active5 changeme5 "><span>Not Satisfied</span> </li>
+
+                  <li class="form-check">
+                    <input class="form-check-input circle6" type="radio" name="ecatalogue" value="1"
+                      id="defaultCheck41">
+                    <label class="orange6" for="defaultCheck41"></label>
+
+
+                  </li>
+                  <li class="form-check">
+                    <input class="form-check-input circle6" type="radio" name="ecatalogue" value="2"
+                      id="defaultCheck42">
+                    <label class="orange6" for="defaultCheck42"></label>
+
+
+                  </li>
+                  <li class="form-check">
+                    <input class="form-check-input circle6" type="radio" name="ecatalogue" value="3"
+                      id="defaultCheck43">
+                    <label class="orange6" for="defaultCheck43"></label>
+
+
+                  </li>
+                  <li class="form-check">
+                    <input class="form-check-input circle6" type="radio" name="ecatalogue" value="4"
+                      id="defaultCheck44">
+                    <label class="orange6" for="defaultCheck44"></label>
+
+
+                  </li>
+                  <li class="form-check">
+                    <input class="form-check-input circle6" type="radio" name="ecatalogue" value="5"
+                      id="defaultCheck45">
+                    <label class="orange6" for="defaultCheck45"></label>
+
+
+                  </li>
+                  <li class="active5 changeme5"><span> Extremely Satsified</span></li>
+
+
+                </ul>
+                <ul class="list-unstyled follow-list-details-third food">
+                  <li class="direct form-check"><input class="form-check-input main" type="checkbox" value=""
+                      id="defaultCheckmain6">
+                    <label for="defaultCheckmain6"><span class="follow-title active6 changeme6">Food Order &
+                        Menu</span></label>
+                  </li>
+
+                  <li class="active7 changeme6"><span>Not Satisfied </span></li>
+
+                  <li class="form-check">
+                    <input class="form-check-input circle7" type="radio" name="food_order" value="1"
+                      id="defaultCheck46">
+                    <label class="orange7" for="defaultCheck46"></label>
+
+
+                  </li>
+                  <li class="form-check">
+                    <input class="form-check-input circle7" type="radio" name="food_order" value="2"
+                      id="defaultCheck47">
+                    <label class="orange7" for="defaultCheck47"></label>
+
+
+                  </li>
+                  <li class="form-check">
+                    <input class="form-check-input circle7" type="radio" name="food_order" value="3"
+                      id="defaultCheck48">
+                    <label class="orange7" for="defaultCheck48"></label>
+
+
+                  </li>
+                  <li class="form-check">
+                    <input class="form-check-input circle7" type="radio" name="food_order" value="4"
+                      id="defaultCheck49">
+                    <label class="orange7" for="defaultCheck49"></label>
+
+
+                  </li>
+                  <li class="form-check">
+                    <input class="form-check-input circle7" type="radio" name="food_order" value="5"
+                      id="defaultCheck50">
+                    <label class="orange7" for="defaultCheck50"></label>
+
+
+                  </li>
+                  <li class="active8 changeme6"> <span>Extremely Satsified</span></li>
+
+
+                </ul>
+              </div>
+
+            </div>
+          </div>
+          <div class="row">
+            <div class=" col-sm-7  col-6"></div>
+            <div class="col-lg-12 col-md-12 col-sm-5 col-6 next">
+              <span class="divid">1/2</span>
+              <button id="next" class="btn-next"><span>NEXT</span></button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+
+    <div id="page-2" style="display: none;">
+      <progress value="100" max="100"></progress>
+
+      <div class="step3">
+        <div class="container ">
+          <div class="following">
+            <p class="follow">
+              <span class="num">3.</span>How responsive have we been to your questions or concerns?
+            </p>
+            <div class="stars to-validate">
+              <div class="feedback">
+                <div class="rating">
+                  <input class="form-check main" type="radio" name="repsonsive-rate" value="1" id="rating-5">
+                  <label for="rating-5"></label>
+                  <input class="form-check main" type="radio" value="2" name="repsonsive-rate" id="rating-4">
+                  <label for="rating-4"></label>
+                  <input class="form-check main" type="radio" value="3" name="repsonsive-rate" id="rating-3">
+                  <label for="rating-3"></label>
+                  <input class="form-check main" type="radio" value="4" name="repsonsive-rate" id="rating-2">
+                  <label for="rating-2"></label>
+                  <input class="form-check main" type="radio" value="5" name="repsonsive-rate" id="rating-1">
+                  <label for="rating-1"></label>
+                </div>
+              </div>
+            </div>
+
+
+            <p class="follow">
+              <span class="num">4.</span>Considering your complete experience with our software,<br>
+              How likely would you recommend its use to a friend or colleagues?
+            </p>
+            <div class="stars to-validate">
+              <div class="feedback-second">
+                <div class="rating">
+                  <input class="feedback-second form-check main" value="1" type="radio" name="recommended" id="rating-6">
+                  <label for="rating-6"></label>
+                  <input class="feedback-second form-check main" type="radio" value="2" name="recommended" id="rating-7">
+                  <label for="rating-7"></label>
+                  <input class="feedback-second form-check main" type="radio" value="3" name="recommended" id="rating-8">
+                  <label for="rating-8"></label>
+                  <input class="feedback-second form-check main" type="radio" value="4" name="recommended" id="rating-9">
+                  <label for="rating-9"></label>
+                  <input class="feedback-second form-check main" type="radio" value="5" name="recommended" id="rating-10">
+                  <label for="rating-10"></label>
+
+                </div>
+              </div>
+            </div>
+
+            <div class="form-group to-validate">
+              <label for="user-name">Full Name:
+              </label>
+              <input type="text" class="form-control form-check" id="user-name" name="user-name" placeholder="" required>
+            </div>
+            <div class="form-group to-validate">
+              <label for="user-name">Company Name:
+              </label>
+              <input type="text" class="form-control form-check" id="company-name" name="company-name" placeholder="" required>
+            </div>
+            <div class="form-group to-validate">
+              <label for="user-name">Designation:
+              </label>
+              <input type="text" class=" form-control form-check" id="designation" name="designation" placeholder=""  required>
+            </div>
+            <div class="form-group to-validate">
+              <label for="user-name">Email Address:
+              </label>
+              <input type="email" class="form-control form-check" id="email-address" name="email-address" placeholder="" required>
+            </div>
+            <div class="form-group to-validate">
+              <label for="user-name">Contact Number:
+              </label>
+              <input type="tel" class=" form-control form-check" id="tel" name="phone" placeholder="" required>
+            </div>
+            <div class="form-group msg to-validate">
+              <label class="msg-label" for="w3review">Do you have any other comments, questions, or concerns?
+              </label>
+              <textarea id="w3review" name="Extra_points" class="form-check" rows="1" cols="" placeholder="Type Here" required></textarea>
+            </div>
+
+            <div class="step3-btns">
+              <a href="#" id="prev">
+                <div class="prev">
+                  <img src="new_assets/images/prev.png">
+                </div>
+              </a>
+              <div id="complete" class="next">
+                <span class="divid">2/2</span>
+                <input type="submit" class="btn-next" id="complete">
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </form>
+</body>
+
+<footer>
+  <div class="container-fluid">
+    <div class="container">
+
+      <p>Ottu © All Rights Reserved 2021 </p>
+      <ul class="list-unstyled desktop-footer">
+          <li><a href="https://twitter.com/GetOttu" target="_blank">Twitter</a></li>
+          <li><a href="https://www.instagram.com/getottu/" target="_blank">Instagram</a></li>
+          <li><a href="https://www.linkedin.com/company/ottu" target="_blank">LinkedIn</a></li>
+      </ul>
+      <ul class="list-unstyled mobile-footer">
+        <li>
+          <a href="#"><img src="img/twitter.svg"></a>
+        </li>
+        <li>
+          <a href="#"><img src="img/insta.svg"></a>
+
+        </li>
+        <li>
+          <a href="#"><img class="linked" src="img/linkedin.svg"></a>
+
+        </li>
+      </ul>
+    </div>
+  </div>
+</footer>
+
+
+<!--Jquery-->
+<script src="new_assets/form/js/jquery.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-validate/1.19.3/jquery.validate.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-validate/1.19.3/additional-methods.min.js"></script>
+<!--Bootstrap-->
+<script src="new_assets/form/js/bootstrap.min.js"></script>
+<!-- Main javascript File -->
+<script src="new_assets/form/js/main.js"></script>
+
+
+<script>
+
+  
+  $(document).ready(function() {
+    let tempArray = []
+    let existedRadiosButtons = $('.only-radio-fields-length').val();
+    let arrayRadioRows = [];
+    let existedRadioButtonsLength = parseInt(existedRadiosButtons) / 5
+
+    // For main checkboxes
+    $('.main').on('change', function(e) {
+      let type = 'main'
+      if ($(this).is(':checked')) {
+        existedRadioButtonsLength = existedRadioButtonsLength + 1
+        arrayRadioRows.push(existedRadioButtonsLength)
+        chunckedRadioButtonsIntoRows(existedRadioButtonsLength, type, $(this))
+      }
+    })
+    // Call to increase Rows number on first load
+    increaseRows(existedRadioButtonsLength)
+    chunckedRadioButtonsIntoRows(existedRadioButtonsLength)
+    function increaseRows(existedRadioButtonsLength) {
+      for (let j = 1; j <= existedRadioButtonsLength; j++) {
+        arrayRadioRows.push(j)
+      }
+    }
+    
+    // Add class custom-circle-${number-of-row}
+    function chunckedRadioButtonsIntoRows(existedRadioButtonsLength, type, button) {
+      if (type == 'main' && button) {
+        let checkboxRadioButtons = ''
+        console.log(button, 'button')
+        if (button.closest('.follow-list-details').length > 0) {
+          checkboxRadioButtons = button.closest('.follow-list-details').children('.form-check')
+        }
+        if (button.closest('.follow-list-details').length == 0) {
+          console.log(button, "button.children('.form-check')")
+          checkboxRadioButtons = button
+        }
+        console.log(checkboxRadioButtons, 'checkboxRadioButtons')
+        if (checkboxRadioButtons.length == 1) {
+          for(let i = 0; i < checkboxRadioButtons.length ; i++) {
+            checkboxRadioButtons[i].classList.add('only-radio-button')
+          }
+        } else if (checkboxRadioButtons.length > 1) {
+          for(let i = 1; i < checkboxRadioButtons.length ; i++) {
+            checkboxRadioButtons[i].children[0].classList.add('only-radio-button')
+          }
+        }
+      }
+        console.log(existedRadioButtonsLength, 'inside existedRadioButtonsLength')
+        let input = $('.only-radio-button');
+        let chunked = []
+        let size = $('.only-radio-button').length / existedRadioButtonsLength;
+        for (let i = 0;  i < input.length; i += size) {
+            chunked.push(input.slice(i, i + size)) // Divide them into groups of five elements
+        }
+        // console.log(chunked, 'chunked')
+        for (let i = 0; i < chunked.length; i++) {
+          for (let j = 0; j < chunked[i].length; j++) {
+            chunked[i][j].classList.add(`custom-circle-${i + 1}`)
+          }
+        }
+
+        console.log(arrayRadioRows, 'arrayRadioRows')
+        // Add the trigger to fill the array with selected radio buttons
+        for (let i = 0; i < arrayRadioRows.length; i++) {
+          $(`.custom-circle-${arrayRadioRows[i]}`).on('change', function(e) {
+            if ($(this).is(':checked')) {
+              let tempObj = tempArray.find(el => el.field_row == arrayRadioRows[i])
+              if (tempObj == undefined || tempObj == null) {
+                tempArray.push({
+                  field_row: arrayRadioRows[i],
+                  value: 1
+                })
+              }
+            }
+            console.log(tempArray, 'change')
+          })
+        }
+    }
+      function checked(array) {
+        if ([...array].some(e => e.checked == true)) {
+          return true
+        } else {
+          return false
+        }
+      }
+      $('#engagement-form').submit(function(e) {
+        e.preventDefault();
+        let uuid = $('.uuid').val()
+        validate()
+      })
+      function validate() {
+        console.log($('#page-2').find('.text-danger'), "$('#page-2').find('.text-danger')")
+        $('#page-2').find('.text-danger').remove()
+        $.each($('.to-validate'), function(index){
+          var $thisParent = $(this);
+          let $boxed = ''
+          if ($(this).children('.form-check').length == 0) {
+            $boxed = $(this).children().find('.form-check')
+          } else if ($(this).children('.form-check').length > 0) {
+            $boxed = $(this).children('.form-check').children('.only-radio-button') 
+          }
+          console.log($boxed, '$boxed')
+          if (checked($boxed)) {
+            $thisParent.removeClass('has-error').addClass('has-success');
+          } else {
+            console.log('false')
+            $thisParent.addClass('has-error');
+          }
+          if ($thisParent.hasClass('has-error')) {
+            $thisParent.append().after('<p class="text-danger" id="'+$thisParent.id+'_'+index+'">The field is required.</p>');
+          }
+        });
+        if (tempArray.length == existedRadioButtonsLength) {
+          return true;
+        } else {
+          return false;          
+        }
+      }
+
+      $("#next").on('click', function(e) {
+        e.preventDefault();
+        if (validate()) {
+          validate();
+          $("#page-1").css("display", "none");
+          $("#page-2").css("display", "block");
+        }
+      })
+      $("#prev").click(() => {
+        validate()
+        $("#page-1").css("display", "block");
+        $("#page-2").css("display", "none")
+      })
+  })
+  // {% comment %} $("#complete").click(() => {
+  //   $("#engagement-form").submit()
+  // }) {% endcomment %}
+  
+
+
+</script>
+
+</body>
+
+</html>

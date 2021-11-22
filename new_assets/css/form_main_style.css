@@ -1,0 +1,2817 @@
+/*Start Media Mixins*/
+/*End Media Mixins*/
+/*overlay Mixin*/
+/*Prefixes Mixin*/
+/*Animation Prefixes Mixin*/
+body {
+    font-family: "Poppins", sans-serif;
+    margin: 0;
+    padding: 0;
+  }
+  
+  header {
+    background-image: url("../img/header.svg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: right;
+    height: 160px;
+    position: relative;
+  }
+  @media (min-width: 1200px) and (max-width: 1400px) {
+    header {
+      height: 147px;
+    }
+  }
+  @media (min-width: 992px) and (max-width: 1199px) {
+    header {
+      height: 90px;
+    }
+  }
+  @media (min-width: 768px) and (max-width: 991px) {
+    header {
+      height: 87px;
+    }
+  }
+  @media (min-width: 576px) and (max-width: 767.98px) {
+    header {
+      height: 90px;
+    }
+  }
+  @media (max-width: 576px) {
+    header {
+      height: 75px;
+    }
+  }
+  header .container img {
+    width: 220px;
+    height: 70px;
+    margin: 45px 0;
+  }
+  @media (min-width: 1200px) and (max-width: 1400px) {
+    header .container img {
+      width: 148px;
+      height: 43px;
+      margin: 50px 0;
+    }
+  }
+  @media (min-width: 992px) and (max-width: 1199px) {
+    header .container img {
+      width: 148px;
+      height: 37px;
+      margin: 27px 0;
+    }
+  }
+  @media (min-width: 768px) and (max-width: 991px) {
+    header .container img {
+      width: 100px;
+      height: 39px;
+      margin: 29px 0;
+    }
+  }
+  @media (min-width: 576px) and (max-width: 767.98px) {
+    header .container img {
+      width: 108px;
+      height: 45px;
+      margin: 18px 0;
+    }
+  }
+  @media (max-width: 576px) {
+    header .container img {
+      width: 96px;
+      height: 26px;
+      margin: 25px 0;
+    }
+  }
+  
+  .step1 .container {
+    background-image: url("../img/background-10.svg");
+    background-position: center;
+    height: 100%;
+  }
+  @media (max-width: 576px) {
+    .step1 .container {
+      width: 100%;
+      padding-right: 14px;
+      padding-left: 30px;
+      margin-right: auto;
+      margin-left: auto;
+    }
+  }
+  
+  .following {
+    margin-top: 120px;
+  }
+  @media (min-width: 1200px) and (max-width: 1400px) {
+    .following {
+      margin-top: 65px;
+    }
+  }
+  @media (min-width: 992px) and (max-width: 1199px) {
+    .following {
+      margin-top: 40px;
+    }
+  }
+  @media (min-width: 768px) and (max-width: 991px) {
+    .following {
+      margin-top: 40px;
+    }
+  }
+  @media (min-width: 576px) and (max-width: 767.98px) {
+    .following {
+      margin-top: 40px;
+    }
+  }
+  @media (max-width: 576px) {
+    .following {
+      margin-top: 40px;
+    }
+  }
+  .following .following.main .follow-list-details li,
+  .following .following.main .follow-list-details-second li,
+  .following .following.main .follow-list-details-third li {
+    color: #919191;
+    font-weight: 500;
+  }
+  .following .follow {
+    color: #302F37;
+    font-size: 22px;
+    margin-bottom: 60px;
+    position: relative;
+    font-weight: 600;
+  }
+  @media (min-width: 992px) and (max-width: 1199px) {
+    .following .follow {
+      font-size: 17px;
+      margin-bottom: 20px;
+    }
+  }
+  @media (min-width: 768px) and (max-width: 991px) {
+    .following .follow {
+      font-size: 17px;
+      margin-bottom: 20px;
+    }
+  }
+  @media (min-width: 576px) and (max-width: 767.98px) {
+    .following .follow {
+      font-size: 18px;
+      margin-bottom: 20px;
+    }
+  }
+  @media (max-width: 576px) {
+    .following .follow {
+      font-size: 16px;
+      margin-bottom: 20px;
+    }
+  }
+  .following .follow .num {
+    color: #F07C21;
+    position: absolute;
+    left: -30px;
+  }
+  @media (min-width: 992px) and (max-width: 1199px) {
+    .following .follow .num {
+      left: -20px;
+    }
+  }
+  @media (min-width: 768px) and (max-width: 991px) {
+    .following .follow .num {
+      left: -20px;
+    }
+  }
+  @media (min-width: 576px) and (max-width: 767.98px) {
+    .following .follow .num {
+      left: -20px;
+    }
+  }
+  @media (max-width: 576px) {
+    .following .follow .num {
+      left: -24px;
+    }
+  }
+  .following .follow-details {
+    display: flex;
+  }
+  .following .follow-details #second-list {
+    width: 100%;
+  }
+  .following .follow-details #second-list li:nth-child(1) {
+    width: 327px;
+  }
+  @media (min-width: 768px) and (max-width: 991px) {
+    .following .follow-details #second-list li:nth-child(1) {
+      width: 198px;
+    }
+  }
+  @media (min-width: 576px) and (max-width: 767.98px) {
+    .following .follow-details #second-list li:nth-child(1) {
+      width: 100%;
+      padding-bottom: 20px;
+    }
+  }
+  @media (max-width: 576px) {
+    .following .follow-details #second-list li:nth-child(1) {
+      width: 100%;
+      padding-bottom: 20px;
+    }
+  }
+  .following .follow-details .follow-lists {
+    width: 100%;
+  }
+  .following .follow-details .follow-lists .follow-list-details-third.poor,
+  .following .follow-details .follow-lists .follow-list-details-third.food {
+    padding-bottom: 0;
+    margin-bottom: 0;
+  }
+  .following .follow-details .follow-lists ul {
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 35px;
+    margin-bottom: 35px;
+  }
+  @media (min-width: 992px) and (max-width: 1199px) {
+    .following .follow-details .follow-lists ul {
+      padding-bottom: 19px;
+      margin-bottom: 29px;
+    }
+  }
+  @media (min-width: 768px) and (max-width: 991px) {
+    .following .follow-details .follow-lists ul {
+      padding-bottom: 19px;
+      margin-bottom: 29px;
+    }
+  }
+  @media (min-width: 576px) and (max-width: 767.98px) {
+    .following .follow-details .follow-lists ul {
+      padding-bottom: 19px;
+      margin-bottom: 29px;
+      flex-wrap: wrap;
+    }
+  }
+  @media (max-width: 576px) {
+    .following .follow-details .follow-lists ul {
+      padding-bottom: 19px;
+      margin-bottom: 29px;
+      flex-wrap: wrap;
+    }
+  }
+  .following .follow-details .follow-lists ul:nth-child(4) {
+    padding-bottom: 15px;
+  }
+  @media (min-width: 1200px) {
+    .following .follow-details .follow-lists ul:nth-child(4) {
+      padding-bottom: 0;
+    }
+  }
+  .following .follow-details .follow-lists ul:not(:last-of-type) {
+    border-bottom: 3px dashed #adadad;
+  }
+  .following .follow-details .follow-lists li {
+    color: #302F37;
+    font-size: 18px;
+    font-weight: 600;
+  }
+  @media (min-width: 992px) and (max-width: 1199px) {
+    .following .follow-details .follow-lists li {
+      font-size: 15px;
+    }
+  }
+  @media (min-width: 768px) and (max-width: 991px) {
+    .following .follow-details .follow-lists li {
+      font-size: 13px;
+    }
+  }
+  @media (min-width: 576px) and (max-width: 767.98px) {
+    .following .follow-details .follow-lists li {
+      font-size: 13px;
+    }
+  }
+  @media (max-width: 576px) {
+    .following .follow-details .follow-lists li {
+      font-size: 13px;
+    }
+  }
+  .following .follow-details .follow-lists li .follow-title {
+    margin-left: 40px;
+  }
+  @media (min-width: 768px) and (max-width: 991px) {
+    .following .follow-details .follow-lists li .follow-title {
+      margin-left: 32px;
+    }
+  }
+  @media (min-width: 576px) and (max-width: 767.98px) {
+    .following .follow-details .follow-lists li .follow-title {
+      margin-left: 32px;
+    }
+  }
+  @media (max-width: 420px) {
+    .following .follow-details .follow-lists li .follow-title {
+      margin-left: 24px;
+    }
+  }
+  .following .follow-details .follow-lists li .follow-qr {
+    margin-left: 41px;
+  }
+  @media (min-width: 768px) and (max-width: 991px) {
+    .following .follow-details .follow-lists li .follow-qr {
+      margin-left: 30px;
+    }
+  }
+  @media (min-width: 576px) and (max-width: 767.98px) {
+    .following .follow-details .follow-lists li .follow-qr {
+      margin-left: 34px;
+    }
+  }
+  @media (max-width: 576px) {
+    .following .follow-details .follow-lists li .follow-qr {
+      margin-left: 40px;
+    }
+  }
+  @media (max-width: 332px) {
+    .following .follow-details .follow-lists li .follow-qr {
+      margin-left: 27px;
+    }
+  }
+  .following .follow-details .follow-lists li:nth-child(1) {
+    width: 400px;
+  }
+  @media (min-width: 576px) and (max-width: 767.98px) {
+    .following .follow-details .follow-lists li:nth-child(1) {
+      width: 100%;
+      padding-bottom: 20px;
+    }
+  }
+  @media (max-width: 576px) {
+    .following .follow-details .follow-lists li:nth-child(1) {
+      width: 100%;
+      padding-bottom: 20px;
+    }
+  }
+  .following .follow-details .follow-lists li:nth-child(2) {
+    font-size: 16px;
+    text-transform: capitalize;
+  }
+  @media (min-width: 992px) and (max-width: 1199px) {
+    .following .follow-details .follow-lists li:nth-child(2) {
+      font-size: 14px;
+    }
+  }
+  @media (min-width: 768px) and (max-width: 991px) {
+    .following .follow-details .follow-lists li:nth-child(2) {
+      font-size: 12px;
+    }
+  }
+  @media (min-width: 576px) and (max-width: 767.98px) {
+    .following .follow-details .follow-lists li:nth-child(2) {
+      font-size: 12px;
+    }
+  }
+  @media (max-width: 576px) {
+    .following .follow-details .follow-lists li:nth-child(2) {
+      font-size: 10px;
+    }
+  }
+  @media (max-width: 332px) {
+    .following .follow-details .follow-lists li:nth-child(2) {
+      font-size: 10px;
+    }
+  }
+  .following .follow-details .follow-lists li:nth-child(8) {
+    font-size: 16px;
+  }
+  @media (min-width: 992px) and (max-width: 1199px) {
+    .following .follow-details .follow-lists li:nth-child(8) {
+      font-size: 14px;
+    }
+  }
+  @media (min-width: 768px) and (max-width: 991px) {
+    .following .follow-details .follow-lists li:nth-child(8) {
+      font-size: 12px;
+    }
+  }
+  @media (min-width: 576px) and (max-width: 767.98px) {
+    .following .follow-details .follow-lists li:nth-child(8) {
+      font-size: 12px;
+    }
+  }
+  @media (max-width: 576px) {
+    .following .follow-details .follow-lists li:nth-child(8) {
+      font-size: 10px;
+      position: inherit;
+    }
+  }
+  @media (max-width: 332px) {
+    .following .follow-details .follow-lists li:nth-child(8) {
+      font-size: 10px;
+    }
+  }
+  .following .next {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 150px;
+    margin-top: 80px;
+  }
+  @media (max-width: 576px) {
+    .following .next {
+      margin: 55px 0;
+    }
+  }
+  .following .next .divid {
+    color: #919191;
+    font-size: 23px;
+    font-weight: 500;
+    margin-right: 17px;
+  }
+  @media (min-width: 992px) and (max-width: 1199px) {
+    .following .next .divid {
+      font-size: 20px;
+    }
+  }
+  @media (min-width: 768px) and (max-width: 991px) {
+    .following .next .divid {
+      font-size: 20px;
+    }
+  }
+  @media (min-width: 576px) and (max-width: 767.98px) {
+    .following .next .divid {
+      font-size: 20px;
+    }
+  }
+  @media (max-width: 576px) {
+    .following .next .divid {
+      font-size: 17px;
+    }
+  }
+  .following .next .btn-next {
+    background-color: #1280bc;
+    width: 166px;
+    height: 70px;
+    color: #FFF;
+    text-align: center;
+    line-height: 70px;
+    font-size: 23px;
+    font-weight: 500;
+    text-decoration: uppercase;
+  }
+  @media (min-width: 992px) and (max-width: 1199px) {
+    .following .next .btn-next {
+      width: 129px;
+      height: 55px;
+      line-height: 55px;
+      font-size: 20px;
+    }
+  }
+  @media (min-width: 768px) and (max-width: 991px) {
+    .following .next .btn-next {
+      width: 129px;
+      height: 55px;
+      line-height: 55px;
+      font-size: 20px;
+    }
+  }
+  @media (min-width: 576px) and (max-width: 767.98px) {
+    .following .next .btn-next {
+      width: 129px;
+      height: 55px;
+      line-height: 55px;
+      font-size: 20px;
+    }
+  }
+  @media (max-width: 576px) {
+    .following .next .btn-next {
+      width: 125px;
+      height: 45px;
+      line-height: 45px;
+      font-size: 17px;
+    }
+  }
+  .following .next .btn-next:hover {
+    opacity: 0.8;
+    text-decoration: none;
+  }
+  
+  .circle1[type=radio]:not(:checked) + label:after {
+    opacity: 0;
+    -webkit-transform: scale(0);
+    transform: scale(0);
+  }
+  
+  .circle1[type=radio]:checked + label:after {
+    opacity: 1;
+    -webkit-transform: scale(1);
+    transform: scale(1);
+  }
+  
+  .circle1[type=radio]:checked,
+  .circle1[type=radio]:not(:checked) {
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    border: 0;
+    width: 0;
+  }
+  
+  .circle1[type=radio]:checked + label,
+  .circle1[type=radio]:not(:checked) + label {
+    position: relative;
+    padding-left: 28px;
+    cursor: pointer;
+    line-height: 20px;
+    display: inline-block;
+    color: #666;
+  }
+  @media (max-width: 576px) {
+    .circle1[type=radio]:checked + label,
+  .circle1[type=radio]:not(:checked) + label {
+      display: contents;
+    }
+  }
+  @media (max-width: 332px) {
+    .circle1[type=radio]:checked + label,
+  .circle1[type=radio]:not(:checked) + label {
+      display: contents;
+    }
+  }
+  
+  .circle1[type=radio]:checked + label:before,
+  .circle1[type=radio]:not(:checked) + label:before {
+    content: "";
+    position: absolute;
+    left: 0;
+    top: -14px;
+    width: 28px;
+    height: 28px;
+    border-radius: 100%;
+    background: #d1d1d1;
+  }
+  @media (min-width: 1200px) and (max-width: 1400px) {
+    .circle1[type=radio]:checked + label:before,
+  .circle1[type=radio]:not(:checked) + label:before {
+      top: -10px;
+      width: 20px;
+      height: 20px;
+    }
+  }
+  @media (min-width: 992px) and (max-width: 1199px) {
+    .circle1[type=radio]:checked + label:before,
+  .circle1[type=radio]:not(:checked) + label:before {
+      top: -7px;
+      width: 20px;
+      height: 20px;
+    }
+  }
+  @media (min-width: 768px) and (max-width: 991px) {
+    .circle1[type=radio]:checked + label:before,
+  .circle1[type=radio]:not(:checked) + label:before {
+      top: -6px;
+      width: 20px;
+      height: 20px;
+    }
+  }
+  @media (min-width: 576px) and (max-width: 767.98px) {
+    .circle1[type=radio]:checked + label:before,
+  .circle1[type=radio]:not(:checked) + label:before {
+      top: -8px;
+      width: 20px;
+      height: 20px;
+    }
+  }
+  @media (max-width: 576px) {
+    .circle1[type=radio]:checked + label:before,
+  .circle1[type=radio]:not(:checked) + label:before {
+      top: 0;
+      width: 17px;
+      height: 17px;
+    }
+  }
+  @media (max-width: 420px) {
+    .circle1[type=radio]:checked + label:before,
+  .circle1[type=radio]:not(:checked) + label:before {
+      top: 2px;
+      width: 15px;
+      height: 15px;
+      left: -9px;
+    }
+  }
+  @media (max-width: 332px) {
+    .circle1[type=radio]:checked + label:before,
+  .circle1[type=radio]:not(:checked) + label:before {
+      top: 2px;
+      width: 12px;
+      height: 12px;
+      left: -7px;
+    }
+  }
+  
+  /**2**/
+  .circle2[type=radio]:not(:checked) + label:after {
+    opacity: 0;
+    -webkit-transform: scale(0);
+    transform: scale(0);
+  }
+  
+  .circle2[type=radio]:checked + label:after {
+    opacity: 1;
+    -webkit-transform: scale(1);
+    transform: scale(1);
+  }
+  
+  .circle2[type=radio]:checked,
+  .circle2[type=radio]:not(:checked) {
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    border: 0;
+    width: 0;
+  }
+  
+  .circle2[type=radio]:checked + label,
+  .circle2[type=radio]:not(:checked) + label {
+    position: relative;
+    padding-left: 28px;
+    cursor: pointer;
+    line-height: 20px;
+    display: inline-block;
+    color: #666;
+  }
+  @media (max-width: 576px) {
+    .circle2[type=radio]:checked + label,
+  .circle2[type=radio]:not(:checked) + label {
+      display: contents;
+    }
+  }
+  @media (max-width: 332px) {
+    .circle2[type=radio]:checked + label,
+  .circle2[type=radio]:not(:checked) + label {
+      display: contents;
+    }
+  }
+  
+  .circle2[type=radio]:checked + label:before,
+  .circle2[type=radio]:not(:checked) + label:before {
+    content: "";
+    position: absolute;
+    left: 0;
+    top: -14px;
+    width: 28px;
+    height: 28px;
+    border-radius: 100%;
+    background: #d1d1d1;
+  }
+  @media (min-width: 1200px) and (max-width: 1400px) {
+    .circle2[type=radio]:checked + label:before,
+  .circle2[type=radio]:not(:checked) + label:before {
+      top: -10px;
+      width: 20px;
+      height: 20px;
+    }
+  }
+  @media (min-width: 992px) and (max-width: 1199px) {
+    .circle2[type=radio]:checked + label:before,
+  .circle2[type=radio]:not(:checked) + label:before {
+      top: -7px;
+      width: 20px;
+      height: 20px;
+    }
+  }
+  @media (min-width: 768px) and (max-width: 991px) {
+    .circle2[type=radio]:checked + label:before,
+  .circle2[type=radio]:not(:checked) + label:before {
+      top: -6px;
+      width: 20px;
+      height: 20px;
+    }
+  }
+  @media (min-width: 576px) and (max-width: 767.98px) {
+    .circle2[type=radio]:checked + label:before,
+  .circle2[type=radio]:not(:checked) + label:before {
+      top: -8px;
+      width: 20px;
+      height: 20px;
+    }
+  }
+  @media (max-width: 576px) {
+    .circle2[type=radio]:checked + label:before,
+  .circle2[type=radio]:not(:checked) + label:before {
+      top: 0;
+      width: 17px;
+      height: 17px;
+    }
+  }
+  @media (max-width: 420px) {
+    .circle2[type=radio]:checked + label:before,
+  .circle2[type=radio]:not(:checked) + label:before {
+      top: 2px;
+      width: 15px;
+      height: 15px;
+      left: -9px;
+    }
+  }
+  @media (max-width: 332px) {
+    .circle2[type=radio]:checked + label:before,
+  .circle2[type=radio]:not(:checked) + label:before {
+      top: 2px;
+      width: 12px;
+      height: 12px;
+      left: -7px;
+    }
+  }
+  
+  .circle2[type=radio]:checked + label:after,
+  .circle2[type=radio]:not(:checked) + label:after {
+    content: "";
+    width: 28px;
+    height: 28px;
+    background: #d1d1d1;
+    position: absolute;
+    top: -14px;
+    left: 0px;
+    border-radius: 100%;
+    -webkit-transition: all 0.2s ease;
+    transition: all 0.2s ease;
+  }
+  @media (min-width: 1200px) and (max-width: 1400px) {
+    .circle2[type=radio]:checked + label:after,
+  .circle2[type=radio]:not(:checked) + label:after {
+      top: -10px;
+      width: 20px;
+      height: 20px;
+    }
+  }
+  @media (min-width: 992px) and (max-width: 1199px) {
+    .circle2[type=radio]:checked + label:after,
+  .circle2[type=radio]:not(:checked) + label:after {
+      top: -7px;
+      width: 20px;
+      height: 20px;
+    }
+  }
+  @media (min-width: 768px) and (max-width: 991px) {
+    .circle2[type=radio]:checked + label:after,
+  .circle2[type=radio]:not(:checked) + label:after {
+      top: -6px;
+      width: 20px;
+      height: 20px;
+    }
+  }
+  @media (min-width: 576px) and (max-width: 767.98px) {
+    .circle2[type=radio]:checked + label:after,
+  .circle2[type=radio]:not(:checked) + label:after {
+      top: -8px;
+      width: 20px;
+      height: 20px;
+    }
+  }
+  @media (max-width: 576px) {
+    .circle2[type=radio]:checked + label:after,
+  .circle2[type=radio]:not(:checked) + label:after {
+      top: 0;
+      width: 17px;
+      height: 17px;
+    }
+  }
+  @media (max-width: 420px) {
+    .circle2[type=radio]:checked + label:after,
+  .circle2[type=radio]:not(:checked) + label:after {
+      top: 2px;
+      width: 15px;
+      height: 15px;
+      left: -9px;
+    }
+  }
+  @media (max-width: 332px) {
+    .circle2[type=radio]:checked + label:after,
+  .circle2[type=radio]:not(:checked) + label:after {
+      top: 2px;
+      width: 12px;
+      height: 12px;
+      left: -7px;
+    }
+  }
+  
+  /****3***/
+  .circle3[type=radio]:not(:checked) + label:after {
+    opacity: 0;
+    -webkit-transform: scale(0);
+    transform: scale(0);
+  }
+  
+  .circle3[type=radio]:checked + label:after {
+    opacity: 1;
+    -webkit-transform: scale(1);
+    transform: scale(1);
+  }
+  
+  .circle3[type=radio]:checked,
+  .circle3[type=radio]:not(:checked) {
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    border: 0;
+    width: 0;
+  }
+  
+  .circle3[type=radio]:checked + label,
+  .circle3[type=radio]:not(:checked) + label {
+    position: relative;
+    padding-left: 28px;
+    cursor: pointer;
+    line-height: 20px;
+    display: inline-block;
+    color: #666;
+  }
+  @media (max-width: 576px) {
+    .circle3[type=radio]:checked + label,
+  .circle3[type=radio]:not(:checked) + label {
+      display: contents;
+    }
+  }
+  @media (max-width: 332px) {
+    .circle3[type=radio]:checked + label,
+  .circle3[type=radio]:not(:checked) + label {
+      display: contents;
+    }
+  }
+  
+  .circle3[type=radio]:checked + label:before,
+  .circle3[type=radio]:not(:checked) + label:before {
+    content: "";
+    position: absolute;
+    left: 0;
+    top: -14px;
+    width: 28px;
+    height: 28px;
+    border-radius: 100%;
+    background: #d1d1d1;
+  }
+  @media (min-width: 1200px) and (max-width: 1400px) {
+    .circle3[type=radio]:checked + label:before,
+  .circle3[type=radio]:not(:checked) + label:before {
+      top: -10px;
+      width: 20px;
+      height: 20px;
+    }
+  }
+  @media (min-width: 992px) and (max-width: 1199px) {
+    .circle3[type=radio]:checked + label:before,
+  .circle3[type=radio]:not(:checked) + label:before {
+      top: -7px;
+      width: 20px;
+      height: 20px;
+    }
+  }
+  @media (min-width: 768px) and (max-width: 991px) {
+    .circle3[type=radio]:checked + label:before,
+  .circle3[type=radio]:not(:checked) + label:before {
+      top: -6px;
+      width: 20px;
+      height: 20px;
+    }
+  }
+  @media (min-width: 576px) and (max-width: 767.98px) {
+    .circle3[type=radio]:checked + label:before,
+  .circle3[type=radio]:not(:checked) + label:before {
+      top: -8px;
+      width: 20px;
+      height: 20px;
+    }
+  }
+  @media (max-width: 576px) {
+    .circle3[type=radio]:checked + label:before,
+  .circle3[type=radio]:not(:checked) + label:before {
+      top: 0;
+      width: 17px;
+      height: 17px;
+    }
+  }
+  @media (max-width: 420px) {
+    .circle3[type=radio]:checked + label:before,
+  .circle3[type=radio]:not(:checked) + label:before {
+      top: 2px;
+      width: 15px;
+      height: 15px;
+      left: -9px;
+    }
+  }
+  @media (max-width: 332px) {
+    .circle3[type=radio]:checked + label:before,
+  .circle3[type=radio]:not(:checked) + label:before {
+      top: 2px;
+      width: 12px;
+      height: 12px;
+      left: -7px;
+    }
+  }
+  
+  .circle3[type=radio]:checked + label:after,
+  .circle3[type=radio]:not(:checked) + label:after {
+    content: "";
+    width: 28px;
+    height: 28px;
+    background: #d1d1d1;
+    position: absolute;
+    top: -14px;
+    left: 0px;
+    border-radius: 100%;
+    -webkit-transition: all 0.2s ease;
+    transition: all 0.2s ease;
+  }
+  @media (min-width: 1200px) and (max-width: 1400px) {
+    .circle3[type=radio]:checked + label:after,
+  .circle3[type=radio]:not(:checked) + label:after {
+      top: -10px;
+      width: 20px;
+      height: 20px;
+    }
+  }
+  @media (min-width: 992px) and (max-width: 1199px) {
+    .circle3[type=radio]:checked + label:after,
+  .circle3[type=radio]:not(:checked) + label:after {
+      top: -7px;
+      width: 20px;
+      height: 20px;
+    }
+  }
+  @media (min-width: 768px) and (max-width: 991px) {
+    .circle3[type=radio]:checked + label:after,
+  .circle3[type=radio]:not(:checked) + label:after {
+      top: -6px;
+      width: 20px;
+      height: 20px;
+    }
+  }
+  @media (min-width: 576px) and (max-width: 767.98px) {
+    .circle3[type=radio]:checked + label:after,
+  .circle3[type=radio]:not(:checked) + label:after {
+      top: -8px;
+      width: 20px;
+      height: 20px;
+    }
+  }
+  @media (max-width: 576px) {
+    .circle3[type=radio]:checked + label:after,
+  .circle3[type=radio]:not(:checked) + label:after {
+      top: 0;
+      width: 17px;
+      height: 17px;
+    }
+  }
+  @media (max-width: 420px) {
+    .circle3[type=radio]:checked + label:after,
+  .circle3[type=radio]:not(:checked) + label:after {
+      top: 2px;
+      width: 15px;
+      height: 15px;
+      left: -9px;
+    }
+  }
+  @media (max-width: 332px) {
+    .circle3[type=radio]:checked + label:after,
+  .circle3[type=radio]:not(:checked) + label:after {
+      top: 2px;
+      width: 12px;
+      height: 12px;
+      left: -7px;
+    }
+  }
+  
+  /***4***/
+  .circle4[type=radio]:not(:checked) + label:after {
+    opacity: 0;
+    -webkit-transform: scale(0);
+    transform: scale(0);
+  }
+  
+  .circle4[type=radio]:checked + label:after {
+    opacity: 1;
+    -webkit-transform: scale(1);
+    transform: scale(1);
+  }
+  
+  .circle4[type=radio]:checked,
+  .circle4[type=radio]:not(:checked) {
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    border: 0;
+    width: 0;
+  }
+  
+  .circle4[type=radio]:checked + label,
+  .circle4[type=radio]:not(:checked) + label {
+    position: relative;
+    padding-left: 28px;
+    cursor: pointer;
+    line-height: 20px;
+    display: inline-block;
+    color: #666;
+  }
+  @media (max-width: 576px) {
+    .circle4[type=radio]:checked + label,
+  .circle4[type=radio]:not(:checked) + label {
+      display: contents;
+    }
+  }
+  @media (max-width: 332px) {
+    .circle4[type=radio]:checked + label,
+  .circle4[type=radio]:not(:checked) + label {
+      display: contents;
+    }
+  }
+  
+  .circle4[type=radio]:checked + label:before,
+  .circle4[type=radio]:not(:checked) + label:before {
+    content: "";
+    position: absolute;
+    left: 0;
+    top: -14px;
+    width: 28px;
+    height: 28px;
+    border-radius: 100%;
+    background: #d1d1d1;
+  }
+  @media (min-width: 1200px) and (max-width: 1400px) {
+    .circle4[type=radio]:checked + label:before,
+  .circle4[type=radio]:not(:checked) + label:before {
+      top: -10px;
+      width: 20px;
+      height: 20px;
+    }
+  }
+  @media (min-width: 992px) and (max-width: 1199px) {
+    .circle4[type=radio]:checked + label:before,
+  .circle4[type=radio]:not(:checked) + label:before {
+      top: -7px;
+      width: 20px;
+      height: 20px;
+    }
+  }
+  @media (min-width: 768px) and (max-width: 991px) {
+    .circle4[type=radio]:checked + label:before,
+  .circle4[type=radio]:not(:checked) + label:before {
+      top: -6px;
+      width: 20px;
+      height: 20px;
+    }
+  }
+  @media (min-width: 576px) and (max-width: 767.98px) {
+    .circle4[type=radio]:checked + label:before,
+  .circle4[type=radio]:not(:checked) + label:before {
+      top: -8px;
+      width: 20px;
+      height: 20px;
+    }
+  }
+  @media (max-width: 576px) {
+    .circle4[type=radio]:checked + label:before,
+  .circle4[type=radio]:not(:checked) + label:before {
+      top: 0;
+      width: 17px;
+      height: 17px;
+    }
+  }
+  @media (max-width: 420px) {
+    .circle4[type=radio]:checked + label:before,
+  .circle4[type=radio]:not(:checked) + label:before {
+      top: 2px;
+      width: 15px;
+      height: 15px;
+      left: -9px;
+    }
+  }
+  @media (max-width: 332px) {
+    .circle4[type=radio]:checked + label:before,
+  .circle4[type=radio]:not(:checked) + label:before {
+      top: 2px;
+      width: 12px;
+      height: 12px;
+      left: -7px;
+    }
+  }
+  
+  .circle4[type=radio]:checked + label:after,
+  .circle4[type=radio]:not(:checked) + label:after {
+    content: "";
+    width: 28px;
+    height: 28px;
+    background: #d1d1d1;
+    position: absolute;
+    top: -14px;
+    left: 0px;
+    border-radius: 100%;
+    -webkit-transition: all 0.2s ease;
+    transition: all 0.2s ease;
+  }
+  @media (min-width: 1200px) and (max-width: 1400px) {
+    .circle4[type=radio]:checked + label:after,
+  .circle4[type=radio]:not(:checked) + label:after {
+      top: -10px;
+      width: 20px;
+      height: 20px;
+    }
+  }
+  @media (min-width: 992px) and (max-width: 1199px) {
+    .circle4[type=radio]:checked + label:after,
+  .circle4[type=radio]:not(:checked) + label:after {
+      top: -7px;
+      width: 20px;
+      height: 20px;
+    }
+  }
+  @media (min-width: 768px) and (max-width: 991px) {
+    .circle4[type=radio]:checked + label:after,
+  .circle4[type=radio]:not(:checked) + label:after {
+      top: -6px;
+      width: 20px;
+      height: 20px;
+    }
+  }
+  @media (min-width: 576px) and (max-width: 767.98px) {
+    .circle4[type=radio]:checked + label:after,
+  .circle4[type=radio]:not(:checked) + label:after {
+      top: -8px;
+      width: 20px;
+      height: 20px;
+    }
+  }
+  @media (max-width: 576px) {
+    .circle4[type=radio]:checked + label:after,
+  .circle4[type=radio]:not(:checked) + label:after {
+      top: 0;
+      width: 17px;
+      height: 17px;
+    }
+  }
+  @media (max-width: 420px) {
+    .circle4[type=radio]:checked + label:after,
+  .circle4[type=radio]:not(:checked) + label:after {
+      top: 2px;
+      width: 15px;
+      height: 15px;
+      left: -9px;
+    }
+  }
+  @media (max-width: 332px) {
+    .circle4[type=radio]:checked + label:after,
+  .circle4[type=radio]:not(:checked) + label:after {
+      top: 2px;
+      width: 12px;
+      height: 12px;
+      left: -7px;
+    }
+  }
+  
+  /****5***/
+  .circle5[type=radio]:not(:checked) + label:after {
+    opacity: 0;
+    -webkit-transform: scale(0);
+    transform: scale(0);
+  }
+  
+  .circle5[type=radio]:checked + label:after {
+    opacity: 1;
+    -webkit-transform: scale(1);
+    transform: scale(1);
+  }
+  
+  .circle5[type=radio]:checked,
+  .circle5[type=radio]:not(:checked) {
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    border: 0;
+    width: 0;
+  }
+  
+  .circle5[type=radio]:checked + label,
+  .circle5[type=radio]:not(:checked) + label {
+    position: relative;
+    padding-left: 28px;
+    cursor: pointer;
+    line-height: 20px;
+    display: inline-block;
+    color: #666;
+  }
+  @media (max-width: 576px) {
+    .circle5[type=radio]:checked + label,
+  .circle5[type=radio]:not(:checked) + label {
+      display: contents;
+    }
+  }
+  @media (max-width: 332px) {
+    .circle5[type=radio]:checked + label,
+  .circle5[type=radio]:not(:checked) + label {
+      display: contents;
+    }
+  }
+  
+  .circle5[type=radio]:checked + label:before,
+  .circle5[type=radio]:not(:checked) + label:before {
+    content: "";
+    position: absolute;
+    left: 0;
+    top: -14px;
+    width: 28px;
+    height: 28px;
+    border-radius: 100%;
+    background: #d1d1d1;
+  }
+  @media (min-width: 1200px) and (max-width: 1400px) {
+    .circle5[type=radio]:checked + label:before,
+  .circle5[type=radio]:not(:checked) + label:before {
+      top: -10px;
+      width: 20px;
+      height: 20px;
+    }
+  }
+  @media (min-width: 992px) and (max-width: 1199px) {
+    .circle5[type=radio]:checked + label:before,
+  .circle5[type=radio]:not(:checked) + label:before {
+      top: -7px;
+      width: 20px;
+      height: 20px;
+    }
+  }
+  @media (min-width: 768px) and (max-width: 991px) {
+    .circle5[type=radio]:checked + label:before,
+  .circle5[type=radio]:not(:checked) + label:before {
+      top: -6px;
+      width: 20px;
+      height: 20px;
+    }
+  }
+  @media (min-width: 576px) and (max-width: 767.98px) {
+    .circle5[type=radio]:checked + label:before,
+  .circle5[type=radio]:not(:checked) + label:before {
+      top: -8px;
+      width: 20px;
+      height: 20px;
+    }
+  }
+  @media (max-width: 576px) {
+    .circle5[type=radio]:checked + label:before,
+  .circle5[type=radio]:not(:checked) + label:before {
+      top: 0;
+      width: 17px;
+      height: 17px;
+    }
+  }
+  @media (max-width: 420px) {
+    .circle5[type=radio]:checked + label:before,
+  .circle5[type=radio]:not(:checked) + label:before {
+      top: 2px;
+      width: 15px;
+      height: 15px;
+      left: -9px;
+    }
+  }
+  @media (max-width: 332px) {
+    .circle5[type=radio]:checked + label:before,
+  .circle5[type=radio]:not(:checked) + label:before {
+      top: 2px;
+      width: 12px;
+      height: 12px;
+      left: -7px;
+    }
+  }
+  
+  .circle5[type=radio]:checked + label:after,
+  .circle5[type=radio]:not(:checked) + label:after {
+    content: "";
+    width: 28px;
+    height: 28px;
+    background: #d1d1d1;
+    position: absolute;
+    top: -14px;
+    left: 0px;
+    border-radius: 100%;
+    -webkit-transition: all 0.2s ease;
+    transition: all 0.2s ease;
+  }
+  @media (min-width: 1200px) and (max-width: 1400px) {
+    .circle5[type=radio]:checked + label:after,
+  .circle5[type=radio]:not(:checked) + label:after {
+      top: -10px;
+      width: 20px;
+      height: 20px;
+    }
+  }
+  @media (min-width: 992px) and (max-width: 1199px) {
+    .circle5[type=radio]:checked + label:after,
+  .circle5[type=radio]:not(:checked) + label:after {
+      top: -7px;
+      width: 20px;
+      height: 20px;
+    }
+  }
+  @media (min-width: 768px) and (max-width: 991px) {
+    .circle5[type=radio]:checked + label:after,
+  .circle5[type=radio]:not(:checked) + label:after {
+      top: -6px;
+      width: 20px;
+      height: 20px;
+    }
+  }
+  @media (min-width: 576px) and (max-width: 767.98px) {
+    .circle5[type=radio]:checked + label:after,
+  .circle5[type=radio]:not(:checked) + label:after {
+      top: -8px;
+      width: 20px;
+      height: 20px;
+    }
+  }
+  @media (max-width: 576px) {
+    .circle5[type=radio]:checked + label:after,
+  .circle5[type=radio]:not(:checked) + label:after {
+      top: 0;
+      width: 17px;
+      height: 17px;
+    }
+  }
+  @media (max-width: 420px) {
+    .circle5[type=radio]:checked + label:after,
+  .circle5[type=radio]:not(:checked) + label:after {
+      top: 2px;
+      width: 15px;
+      height: 15px;
+      left: -9px;
+    }
+  }
+  @media (max-width: 332px) {
+    .circle5[type=radio]:checked + label:after,
+  .circle5[type=radio]:not(:checked) + label:after {
+      top: 2px;
+      width: 12px;
+      height: 12px;
+      left: -7px;
+    }
+  }
+  
+  /****6***/
+  .circle6[type=radio]:not(:checked) + label:after {
+    opacity: 0;
+    -webkit-transform: scale(0);
+    transform: scale(0);
+  }
+  
+  .circle6[type=radio]:checked + label:after {
+    opacity: 1;
+    -webkit-transform: scale(1);
+    transform: scale(1);
+  }
+  
+  .circle6[type=radio]:checked,
+  .circle6[type=radio]:not(:checked) {
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    width: 0;
+    border: 0;
+  }
+  
+  .circle6[type=radio]:checked + label,
+  .circle6[type=radio]:not(:checked) + label {
+    position: relative;
+    padding-left: 28px;
+    cursor: pointer;
+    line-height: 20px;
+    display: inline-block;
+    color: #666;
+  }
+  @media (max-width: 576px) {
+    .circle6[type=radio]:checked + label,
+  .circle6[type=radio]:not(:checked) + label {
+      display: contents;
+    }
+  }
+  @media (max-width: 332px) {
+    .circle6[type=radio]:checked + label,
+  .circle6[type=radio]:not(:checked) + label {
+      display: contents;
+    }
+  }
+  
+  .circle6[type=radio]:checked + label:before,
+  .circle6[type=radio]:not(:checked) + label:before {
+    content: "";
+    position: absolute;
+    left: 0;
+    top: -14px;
+    width: 28px;
+    height: 28px;
+    border-radius: 100%;
+    background: #d1d1d1;
+  }
+  @media (min-width: 1200px) and (max-width: 1400px) {
+    .circle6[type=radio]:checked + label:before,
+  .circle6[type=radio]:not(:checked) + label:before {
+      top: -10px;
+      width: 20px;
+      height: 20px;
+    }
+  }
+  @media (min-width: 992px) and (max-width: 1199px) {
+    .circle6[type=radio]:checked + label:before,
+  .circle6[type=radio]:not(:checked) + label:before {
+      top: -7px;
+      width: 20px;
+      height: 20px;
+    }
+  }
+  @media (min-width: 768px) and (max-width: 991px) {
+    .circle6[type=radio]:checked + label:before,
+  .circle6[type=radio]:not(:checked) + label:before {
+      top: -6px;
+      width: 20px;
+      height: 20px;
+    }
+  }
+  @media (min-width: 576px) and (max-width: 767.98px) {
+    .circle6[type=radio]:checked + label:before,
+  .circle6[type=radio]:not(:checked) + label:before {
+      top: -8px;
+      width: 20px;
+      height: 20px;
+    }
+  }
+  @media (max-width: 576px) {
+    .circle6[type=radio]:checked + label:before,
+  .circle6[type=radio]:not(:checked) + label:before {
+      top: 0;
+      width: 17px;
+      height: 17px;
+    }
+  }
+  @media (max-width: 420px) {
+    .circle6[type=radio]:checked + label:before,
+  .circle6[type=radio]:not(:checked) + label:before {
+      top: 2px;
+      width: 15px;
+      height: 15px;
+      left: -9px;
+    }
+  }
+  @media (max-width: 332px) {
+    .circle6[type=radio]:checked + label:before,
+  .circle6[type=radio]:not(:checked) + label:before {
+      top: 2px;
+      width: 12px;
+      height: 12px;
+      left: -7px;
+    }
+  }
+  
+  .circle6[type=radio]:checked + label:after,
+  .circle6[type=radio]:not(:checked) + label:after {
+    content: "";
+    width: 28px;
+    height: 28px;
+    background: #d1d1d1;
+    position: absolute;
+    top: -14px;
+    left: 0px;
+    border-radius: 100%;
+    -webkit-transition: all 0.2s ease;
+    transition: all 0.2s ease;
+  }
+  @media (min-width: 1200px) and (max-width: 1400px) {
+    .circle6[type=radio]:checked + label:after,
+  .circle6[type=radio]:not(:checked) + label:after {
+      top: -10px;
+      width: 20px;
+      height: 20px;
+    }
+  }
+  @media (min-width: 992px) and (max-width: 1199px) {
+    .circle6[type=radio]:checked + label:after,
+  .circle6[type=radio]:not(:checked) + label:after {
+      top: -7px;
+      width: 20px;
+      height: 20px;
+    }
+  }
+  @media (min-width: 768px) and (max-width: 991px) {
+    .circle6[type=radio]:checked + label:after,
+  .circle6[type=radio]:not(:checked) + label:after {
+      top: -6px;
+      width: 20px;
+      height: 20px;
+    }
+  }
+  @media (min-width: 576px) and (max-width: 767.98px) {
+    .circle6[type=radio]:checked + label:after,
+  .circle6[type=radio]:not(:checked) + label:after {
+      top: -8px;
+      width: 20px;
+      height: 20px;
+    }
+  }
+  @media (max-width: 576px) {
+    .circle6[type=radio]:checked + label:after,
+  .circle6[type=radio]:not(:checked) + label:after {
+      top: 0;
+      width: 17px;
+      height: 17px;
+    }
+  }
+  @media (max-width: 420px) {
+    .circle6[type=radio]:checked + label:after,
+  .circle6[type=radio]:not(:checked) + label:after {
+      top: 2px;
+      width: 15px;
+      height: 15px;
+      left: -9px;
+    }
+  }
+  @media (max-width: 332px) {
+    .circle6[type=radio]:checked + label:after,
+  .circle6[type=radio]:not(:checked) + label:after {
+      top: 2px;
+      width: 12px;
+      height: 12px;
+      left: -7px;
+    }
+  }
+  
+  /****7***/
+  .circle7[type=radio]:not(:checked) + label:after {
+    opacity: 0;
+    -webkit-transform: scale(0);
+    transform: scale(0);
+  }
+  
+  .circle7[type=radio]:checked + label:after {
+    opacity: 1;
+    -webkit-transform: scale(1);
+    transform: scale(1);
+  }
+  
+  .circle7[type=radio]:checked,
+  .circle7[type=radio]:not(:checked) {
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    width: 0;
+    border: 0;
+  }
+  
+  .circle7[type=radio]:checked + label,
+  .circle7[type=radio]:not(:checked) + label {
+    position: relative;
+    padding-left: 28px;
+    cursor: pointer;
+    line-height: 20px;
+    display: inline-block;
+    color: #666;
+  }
+  @media (max-width: 576px) {
+    .circle7[type=radio]:checked + label,
+  .circle7[type=radio]:not(:checked) + label {
+      display: contents;
+    }
+  }
+  @media (max-width: 332px) {
+    .circle7[type=radio]:checked + label,
+  .circle7[type=radio]:not(:checked) + label {
+      display: contents;
+    }
+  }
+  
+  .circle7[type=radio]:checked + label:before,
+  .circle7[type=radio]:not(:checked) + label:before {
+    content: "";
+    position: absolute;
+    left: 0;
+    top: -14px;
+    width: 28px;
+    height: 28px;
+    border-radius: 100%;
+    background: #d1d1d1;
+  }
+  @media (min-width: 1200px) and (max-width: 1400px) {
+    .circle7[type=radio]:checked + label:before,
+  .circle7[type=radio]:not(:checked) + label:before {
+      top: -10px;
+      width: 20px;
+      height: 20px;
+    }
+  }
+  @media (min-width: 992px) and (max-width: 1199px) {
+    .circle7[type=radio]:checked + label:before,
+  .circle7[type=radio]:not(:checked) + label:before {
+      top: -7px;
+      width: 20px;
+      height: 20px;
+    }
+  }
+  @media (min-width: 768px) and (max-width: 991px) {
+    .circle7[type=radio]:checked + label:before,
+  .circle7[type=radio]:not(:checked) + label:before {
+      top: -6px;
+      width: 20px;
+      height: 20px;
+    }
+  }
+  @media (min-width: 576px) and (max-width: 767.98px) {
+    .circle7[type=radio]:checked + label:before,
+  .circle7[type=radio]:not(:checked) + label:before {
+      top: -8px;
+      width: 20px;
+      height: 20px;
+    }
+  }
+  @media (max-width: 576px) {
+    .circle7[type=radio]:checked + label:before,
+  .circle7[type=radio]:not(:checked) + label:before {
+      top: 0;
+      width: 17px;
+      height: 17px;
+    }
+  }
+  @media (max-width: 420px) {
+    .circle7[type=radio]:checked + label:before,
+  .circle7[type=radio]:not(:checked) + label:before {
+      top: 2px;
+      width: 15px;
+      height: 15px;
+      left: -9px;
+    }
+  }
+  @media (max-width: 332px) {
+    .circle7[type=radio]:checked + label:before,
+  .circle7[type=radio]:not(:checked) + label:before {
+      top: 2px;
+      width: 12px;
+      height: 12px;
+      left: -7px;
+    }
+  }
+  
+  .circle7[type=radio]:checked + label:after,
+  .circle7[type=radio]:not(:checked) + label:after {
+    content: "";
+    width: 28px;
+    height: 28px;
+    background: #d1d1d1;
+    position: absolute;
+    top: -14px;
+    left: 0px;
+    border-radius: 100%;
+    -webkit-transition: all 0.2s ease;
+    transition: all 0.2s ease;
+  }
+  @media (min-width: 1200px) and (max-width: 1400px) {
+    .circle7[type=radio]:checked + label:after,
+  .circle7[type=radio]:not(:checked) + label:after {
+      top: -10px;
+      width: 20px;
+      height: 20px;
+    }
+  }
+  @media (min-width: 992px) and (max-width: 1199px) {
+    .circle7[type=radio]:checked + label:after,
+  .circle7[type=radio]:not(:checked) + label:after {
+      top: -7px;
+      width: 20px;
+      height: 20px;
+    }
+  }
+  @media (min-width: 768px) and (max-width: 991px) {
+    .circle7[type=radio]:checked + label:after,
+  .circle7[type=radio]:not(:checked) + label:after {
+      top: -6px;
+      width: 20px;
+      height: 20px;
+    }
+  }
+  @media (min-width: 576px) and (max-width: 767.98px) {
+    .circle7[type=radio]:checked + label:after,
+  .circle7[type=radio]:not(:checked) + label:after {
+      top: -8px;
+      width: 20px;
+      height: 20px;
+    }
+  }
+  @media (max-width: 576px) {
+    .circle7[type=radio]:checked + label:after,
+  .circle7[type=radio]:not(:checked) + label:after {
+      top: 0;
+      width: 17px;
+      height: 17px;
+    }
+  }
+  @media (max-width: 420px) {
+    .circle7[type=radio]:checked + label:after,
+  .circle7[type=radio]:not(:checked) + label:after {
+      top: 2px;
+      width: 15px;
+      height: 15px;
+      left: -9px;
+    }
+  }
+  @media (max-width: 332px) {
+    .circle7[type=radio]:checked + label:after,
+  .circle7[type=radio]:not(:checked) + label:after {
+      top: 2px;
+      width: 12px;
+      height: 12px;
+      left: -7px;
+    }
+  }
+  
+  .circle1.activee[type=radio]:checked + label:after,
+  .circle1.activee[type=radio]:not(:checked) + label:after {
+    background-color: #F07C21;
+    z-index: 1;
+  }
+  
+  .circle2.activee[type=radio]:checked + label:after,
+  .circle2.activee[type=radio]:not(:checked) + label:after {
+    background-color: #F07C21;
+    z-index: 1;
+  }
+  
+  .circle3.activee[type=radio]:checked + label:after,
+  .circle3.activee[type=radio]:not(:checked) + label:after {
+    background-color: #F07C21;
+    z-index: 1;
+  }
+  
+  .circle4.activee[type=radio]:checked + label:after,
+  .circle4.activee[type=radio]:not(:checked) + label:after {
+    background-color: #F07C21;
+    z-index: 1;
+  }
+  
+  .circle5.activee[type=radio]:checked + label:after,
+  .circle5.activee[type=radio]:not(:checked) + label:after {
+    background-color: #F07C21;
+    z-index: 1;
+  }
+  
+  .circle6.activee[type=radio]:checked + label:after,
+  .circle6.activee[type=radio]:not(:checked) + label:after {
+    background-color: #F07C21;
+    z-index: 1;
+  }
+  
+  .circle7.activee[type=radio]:checked + label:after,
+  .circle7.activee[type=radio]:not(:checked) + label:after {
+    background-color: #F07C21;
+    z-index: 1;
+  }
+  
+  .circle1[type=radio]:checked + label:after,
+  .circle1[type=radio]:not(:checked) + label:after {
+    content: "";
+    width: 28px;
+    height: 28px;
+    background: #d1d1d1;
+    position: absolute;
+    top: -14px;
+    left: 0px;
+    border-radius: 100%;
+    -webkit-transition: all 0.2s ease;
+    transition: all 0.2s ease;
+  }
+  @media (min-width: 1200px) and (max-width: 1400px) {
+    .circle1[type=radio]:checked + label:after,
+  .circle1[type=radio]:not(:checked) + label:after {
+      top: -10px;
+      width: 20px;
+      height: 20px;
+    }
+  }
+  @media (min-width: 992px) and (max-width: 1199px) {
+    .circle1[type=radio]:checked + label:after,
+  .circle1[type=radio]:not(:checked) + label:after {
+      top: -7px;
+      width: 20px;
+      height: 20px;
+    }
+  }
+  @media (min-width: 768px) and (max-width: 991px) {
+    .circle1[type=radio]:checked + label:after,
+  .circle1[type=radio]:not(:checked) + label:after {
+      top: -6px;
+      width: 20px;
+      height: 20px;
+    }
+  }
+  @media (min-width: 576px) and (max-width: 767.98px) {
+    .circle1[type=radio]:checked + label:after,
+  .circle1[type=radio]:not(:checked) + label:after {
+      top: -8px;
+      width: 20px;
+      height: 20px;
+    }
+  }
+  @media (max-width: 576px) {
+    .circle1[type=radio]:checked + label:after,
+  .circle1[type=radio]:not(:checked) + label:after {
+      top: 0;
+      width: 17px;
+      height: 17px;
+    }
+  }
+  @media (max-width: 420px) {
+    .circle1[type=radio]:checked + label:after,
+  .circle1[type=radio]:not(:checked) + label:after {
+      top: 2px;
+      width: 15px;
+      height: 15px;
+      left: -9px;
+    }
+  }
+  @media (max-width: 332px) {
+    .circle1[type=radio]:checked + label:after,
+  .circle1[type=radio]:not(:checked) + label:after {
+      top: 2px;
+      width: 12px;
+      height: 12px;
+      left: -7px;
+    }
+  }
+  
+  .circle[type=radio]:not(:checked) + label:after {
+    opacity: 0;
+    -webkit-transform: scale(0);
+    transform: scale(0);
+  }
+  
+  .circle[type=radio]:checked + label:after {
+    opacity: 1;
+    -webkit-transform: scale(1);
+    transform: scale(1);
+  }
+  
+  /*****/
+  .main[type=checkbox]:checked,
+  .main[type=checkbox]:not(:checked) {
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    width: 0;
+    border: 0;
+  }
+  
+  .main[type=checkbox]:checked .main[type=checkbox]:not(:checked) {
+    position: relative;
+    padding-left: 28px;
+    cursor: pointer;
+    line-height: 20px;
+    display: inline-block;
+    color: #666;
+  }
+  @media (max-width: 576px) {
+    .main[type=checkbox]:checked .main[type=checkbox]:not(:checked) {
+      display: table-row;
+    }
+  }
+  @media (max-width: 332px) {
+    .main[type=checkbox]:checked .main[type=checkbox]:not(:checked) {
+      display: table-row;
+    }
+  }
+  
+  .main label:hover {
+    cursor: pointer;
+  }
+  
+  .main[type=checkbox]:checked:hover:before {
+    cursor: pointer;
+  }
+  
+  .main[type=checkbox]:not(:checked) ~ label:after, .main[type=checkbox]:checked ~ label:after {
+    content: "";
+    position: absolute;
+    left: 0;
+    top: -2px;
+    width: 28px;
+    height: 28px;
+    border: 1px solid #919191;
+    background-color: transparent;
+    border-radius: 0;
+  }
+  @media (min-width: 992px) and (max-width: 1199px) {
+    .main[type=checkbox]:not(:checked) ~ label:after, .main[type=checkbox]:checked ~ label:after {
+      top: -3px;
+      width: 25px;
+      height: 25px;
+    }
+  }
+  @media (min-width: 768px) and (max-width: 991px) {
+    .main[type=checkbox]:not(:checked) ~ label:after, .main[type=checkbox]:checked ~ label:after {
+      top: -3px;
+      width: 25px;
+      height: 25px;
+    }
+  }
+  @media (min-width: 576px) and (max-width: 767.98px) {
+    .main[type=checkbox]:not(:checked) ~ label:after, .main[type=checkbox]:checked ~ label:after {
+      top: 0;
+      width: 22px;
+      height: 22px;
+    }
+  }
+  @media (max-width: 576px) {
+    .main[type=checkbox]:not(:checked) ~ label:after, .main[type=checkbox]:checked ~ label:after {
+      top: -1px;
+      width: 22px;
+      height: 22px;
+    }
+  }
+  
+  .main[type=checkbox]:checked:before {
+    content: url("../img/Path 65.svg");
+    background: transparent;
+    position: absolute;
+    z-index: 1;
+    border-radius: 0;
+    left: 22px;
+    top: -16px;
+    -webkit-transition: all 0.2s ease;
+    transition: all 0.2s ease;
+  }
+  @media (min-width: 1200px) and (max-width: 1400px) {
+    .main[type=checkbox]:checked:before {
+      content: url("../img/Path 102.svg");
+      top: -16px;
+      left: 23px;
+    }
+  }
+  @media (min-width: 992px) and (max-width: 1199px) {
+    .main[type=checkbox]:checked:before {
+      content: url("../img/Path 102.svg");
+      top: -18px;
+      left: 22px;
+    }
+  }
+  @media (min-width: 768px) and (max-width: 991px) {
+    .main[type=checkbox]:checked:before {
+      content: url("../img/Path 102.svg");
+      top: -16px;
+      left: 21px;
+    }
+  }
+  @media (min-width: 576px) and (max-width: 767.98px) {
+    .main[type=checkbox]:checked:before {
+      content: url("../img/Path 102.svg");
+      top: -18px;
+      left: 21px;
+    }
+  }
+  @media (max-width: 576px) {
+    .main[type=checkbox]:checked:before {
+      content: url("../img/Path 102.svg");
+      top: -17px;
+      left: 20px;
+    }
+  }
+  
+  progress {
+    border: none;
+    width: 100%;
+    height: 20px;
+    background-color: #d6d6d6;
+    margin-top: -1px;
+  }
+  @media (min-width: 768px) and (max-width: 991px) {
+    progress {
+      height: 18px;
+    }
+  }
+  @media (min-width: 576px) and (max-width: 767.98px) {
+    progress {
+      height: 18px;
+    }
+  }
+  @media (max-width: 576px) {
+    progress {
+      height: 18px;
+    }
+  }
+  
+  progress {
+    color: #1280bc;
+  }
+  
+  progress::-webkit-progress-bar {
+    background-color: #d6d6d6;
+  }
+  
+  progress::-webkit-progress-value {
+    background: #1280bc;
+  }
+  
+  progress::-moz-progress-bar {
+    background: #d6d6d6;
+  }
+  
+  .container-fluid,
+  .container-lg,
+  .container-md,
+  .container-sm,
+  .container-xl {
+    padding-left: 0;
+    padding-right: 0;
+  }
+  
+  .color {
+    color: #302F37 !important;
+  }
+  
+  .form-check {
+    padding-left: 0;
+  }
+  
+  /****0***/
+  .circle[type=radio]:not(:checked) + label:after {
+    opacity: 0;
+    -webkit-transform: scale(0);
+    transform: scale(0);
+  }
+  
+  .circle[type=radio]:checked + label:after {
+    opacity: 1;
+    -webkit-transform: scale(1);
+    transform: scale(1);
+  }
+  
+  .circle[type=radio]:checked,
+  .circle[type=radio]:not(:checked) {
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    width: 0;
+    border: 0;
+  }
+  
+  .circle[type=radio]:checked + label,
+  .circle[type=radio]:not(:checked) + label {
+    position: relative;
+    padding-left: 28px;
+    cursor: pointer;
+    line-height: 20px;
+    display: inline-block;
+    color: #666;
+  }
+  @media (max-width: 576px) {
+    .circle[type=radio]:checked + label,
+  .circle[type=radio]:not(:checked) + label {
+      display: contents;
+    }
+  }
+  @media (max-width: 332px) {
+    .circle[type=radio]:checked + label,
+  .circle[type=radio]:not(:checked) + label {
+      display: contents;
+    }
+  }
+  
+  .circle[type=radio]:checked + label:before,
+  .circle[type=radio]:not(:checked) + label:before {
+    content: "";
+    position: absolute;
+    left: 0;
+    top: -14px;
+    width: 28px;
+    height: 28px;
+    border-radius: 100%;
+    background: #d1d1d1;
+  }
+  @media (min-width: 1200px) and (max-width: 1400px) {
+    .circle[type=radio]:checked + label:before,
+  .circle[type=radio]:not(:checked) + label:before {
+      top: -10px;
+      width: 20px;
+      height: 20px;
+    }
+  }
+  @media (min-width: 992px) and (max-width: 1199px) {
+    .circle[type=radio]:checked + label:before,
+  .circle[type=radio]:not(:checked) + label:before {
+      top: -7px;
+      width: 20px;
+      height: 20px;
+    }
+  }
+  @media (min-width: 768px) and (max-width: 991px) {
+    .circle[type=radio]:checked + label:before,
+  .circle[type=radio]:not(:checked) + label:before {
+      top: -6px;
+      width: 20px;
+      height: 20px;
+    }
+  }
+  @media (min-width: 576px) and (max-width: 767.98px) {
+    .circle[type=radio]:checked + label:before,
+  .circle[type=radio]:not(:checked) + label:before {
+      top: -8px;
+      width: 20px;
+      height: 20px;
+    }
+  }
+  @media (max-width: 576px) {
+    .circle[type=radio]:checked + label:before,
+  .circle[type=radio]:not(:checked) + label:before {
+      top: 0;
+      width: 17px;
+      height: 17px;
+    }
+  }
+  @media (max-width: 420px) {
+    .circle[type=radio]:checked + label:before,
+  .circle[type=radio]:not(:checked) + label:before {
+      top: 2px;
+      width: 15px;
+      height: 15px;
+      left: -9px;
+    }
+  }
+  @media (max-width: 332px) {
+    .circle[type=radio]:checked + label:before,
+  .circle[type=radio]:not(:checked) + label:before {
+      top: 2px;
+      width: 12px;
+      height: 12px;
+      left: -7px;
+    }
+  }
+  
+  .circle[type=radio]:checked + label:after,
+  .circle[type=radio]:not(:checked) + label:after {
+    content: "";
+    width: 28px;
+    height: 28px;
+    background: #F07C21;
+    position: absolute;
+    top: -14px;
+    left: 0px;
+    border-radius: 100%;
+    -webkit-transition: all 0.2s ease;
+    transition: all 0.2s ease;
+  }
+  @media (min-width: 1200px) and (max-width: 1400px) {
+    .circle[type=radio]:checked + label:after,
+  .circle[type=radio]:not(:checked) + label:after {
+      top: -10px;
+      width: 20px;
+      height: 20px;
+    }
+  }
+  @media (min-width: 992px) and (max-width: 1199px) {
+    .circle[type=radio]:checked + label:after,
+  .circle[type=radio]:not(:checked) + label:after {
+      top: -7px;
+      width: 20px;
+      height: 20px;
+    }
+  }
+  @media (min-width: 768px) and (max-width: 991px) {
+    .circle[type=radio]:checked + label:after,
+  .circle[type=radio]:not(:checked) + label:after {
+      top: -6px;
+      width: 20px;
+      height: 20px;
+    }
+  }
+  @media (min-width: 576px) and (max-width: 767.98px) {
+    .circle[type=radio]:checked + label:after,
+  .circle[type=radio]:not(:checked) + label:after {
+      top: -8px;
+      width: 20px;
+      height: 20px;
+    }
+  }
+  @media (max-width: 576px) {
+    .circle[type=radio]:checked + label:after,
+  .circle[type=radio]:not(:checked) + label:after {
+      top: 0;
+      width: 17px;
+      height: 17px;
+    }
+  }
+  @media (max-width: 420px) {
+    .circle[type=radio]:checked + label:after,
+  .circle[type=radio]:not(:checked) + label:after {
+      top: 2px;
+      width: 15px;
+      height: 15px;
+      left: -9px;
+    }
+  }
+  @media (max-width: 332px) {
+    .circle[type=radio]:checked + label:after,
+  .circle[type=radio]:not(:checked) + label:after {
+      top: 2px;
+      width: 12px;
+      height: 12px;
+      left: -7px;
+    }
+  }
+  
+  .point {
+    pointer-events: unset !important;
+  }
+  
+  .row {
+    margin-left: 0;
+    margin-right: 0;
+  }
+  
+  .step3 .container {
+    background-image: url("../img/background-10.svg");
+    background-position: center;
+    height: 100%;
+  }
+  @media (max-width: 576px) {
+    .step3 .container {
+      width: 100%;
+      padding-right: 14px;
+      padding-left: 30px;
+      margin-right: auto;
+      margin-left: auto;
+    }
+  }
+  .step3 .container .step3-btns {
+    display: flex;
+    justify-content: space-between;
+    margin: 130px 0;
+    align-items: center;
+  }
+  @media (max-width: 576px) {
+    .step3 .container .step3-btns {
+      margin: 55px 0;
+    }
+  }
+  .step3 .container .prev {
+    background-color: #707070;
+    border-radius: 10px;
+    width: 70px;
+    height: 45px;
+    line-height: 45px;
+    text-align: center;
+  }
+  @media (min-width: 1200px) and (max-width: 1400px) {
+    .step3 .container .prev {
+      width: 65px;
+      height: 35px;
+      line-height: 35px;
+    }
+  }
+  @media (min-width: 992px) and (max-width: 1199px) {
+    .step3 .container .prev {
+      width: 65px;
+      height: 35px;
+      line-height: 35px;
+    }
+  }
+  @media (min-width: 768px) and (max-width: 991px) {
+    .step3 .container .prev {
+      width: 65px;
+      height: 35px;
+      line-height: 35px;
+    }
+  }
+  @media (min-width: 576px) and (max-width: 767.98px) {
+    .step3 .container .prev {
+      width: 65px;
+      height: 35px;
+      line-height: 35px;
+    }
+  }
+  @media (max-width: 576px) {
+    .step3 .container .prev {
+      width: 55px;
+      height: 33px;
+      line-height: 33px;
+    }
+  }
+  .step3 .container .prev:hover {
+    opacity: 0.8;
+    cursor: pointer;
+  }
+  .step3 .container .prev img {
+    width: 32px;
+    height: 22px;
+  }
+  @media (min-width: 1200px) and (max-width: 1400px) {
+    .step3 .container .prev img {
+      width: 30px;
+      height: 20px;
+    }
+  }
+  @media (min-width: 992px) and (max-width: 1199px) {
+    .step3 .container .prev img {
+      width: 30px;
+      height: 20px;
+    }
+  }
+  @media (min-width: 768px) and (max-width: 991px) {
+    .step3 .container .prev img {
+      width: 30px;
+      height: 20px;
+    }
+  }
+  @media (min-width: 576px) and (max-width: 767.98px) {
+    .step3 .container .prev img {
+      width: 30px;
+      height: 20px;
+    }
+  }
+  @media (max-width: 576px) {
+    .step3 .container .prev img {
+      width: 30px;
+      height: 20px;
+    }
+  }
+  .step3 .container #complete {
+    justify-content: initial;
+    width: 62%;
+    margin: 0;
+  }
+  @media (min-width: 576px) and (max-width: 767.98px) {
+    .step3 .container #complete {
+      width: 35%;
+    }
+  }
+  @media (max-width: 576px) {
+    .step3 .container #complete {
+      width: 50%;
+    }
+  }
+  .step3 .stars {
+    margin: 50px 0;
+  }
+  @media (min-width: 992px) and (max-width: 1199px) {
+    .step3 .stars {
+      margin: 25px 0;
+    }
+  }
+  @media (min-width: 768px) and (max-width: 991px) {
+    .step3 .stars {
+      margin: 25px 0;
+    }
+  }
+  @media (min-width: 576px) and (max-width: 767.98px) {
+    .step3 .stars {
+      margin: 15px 0;
+    }
+  }
+  @media (max-width: 576px) {
+    .step3 .stars {
+      margin: 15px 0;
+    }
+  }
+  .step3 .stars i {
+    color: #D1D1D1;
+  }
+  .step3 .form-group {
+    display: flex;
+    margin-bottom: 20px;
+  }
+  @media (min-width: 576px) and (max-width: 767.98px) {
+    .step3 .form-group {
+      flex-wrap: wrap;
+    }
+  }
+  @media (max-width: 576px) {
+    .step3 .form-group {
+      flex-wrap: wrap;
+    }
+  }
+  .step3 .form-group:last-child {
+    flex-wrap: wrap;
+    margin-top: 40px;
+  }
+  .step3 .form-group .form-control:focus {
+    box-shadow: none;
+    outline: none;
+  }
+  .step3 .form-group textarea {
+    border: 0;
+    border-bottom: 1px solid #707070;
+    border-radius: 0;
+    width: 100%;
+    resize: none;
+    overflow: hidden;
+    background-color: transparent;
+    padding: 15px 0;
+  }
+  .step3 .form-group textarea:focus {
+    outline: none;
+    box-shadow: none;
+  }
+  .step3 .form-group textarea:focus-within {
+    outline: none;
+    box-shadow: none;
+  }
+  @media (min-width: 576px) and (max-width: 767.98px) {
+    .step3 .form-group textarea {
+      width: 100%;
+    }
+  }
+  @media (max-width: 576px) {
+    .step3 .form-group textarea {
+      width: 100%;
+    }
+  }
+  .step3 .form-group textarea:focus-visible {
+    outline: none;
+  }
+  .step3 .form-group textarea::placeholder {
+    font-size: 17px;
+    font-weight: 400;
+    color: #919191;
+  }
+  @media (min-width: 1200px) and (max-width: 1400px) {
+    .step3 .form-group textarea::placeholder {
+      font-size: 17px;
+    }
+  }
+  @media (min-width: 992px) and (max-width: 1199px) {
+    .step3 .form-group textarea::placeholder {
+      font-size: 17px;
+    }
+  }
+  @media (min-width: 768px) and (max-width: 991px) {
+    .step3 .form-group textarea::placeholder {
+      font-size: 17px;
+    }
+  }
+  @media (min-width: 576px) and (max-width: 767.98px) {
+    .step3 .form-group textarea::placeholder {
+      font-size: 15px;
+    }
+  }
+  @media (max-width: 576px) {
+    .step3 .form-group textarea::placeholder {
+      font-size: 15px;
+    }
+  }
+  .step3 .form-group .msg-label {
+    width: 100%;
+  }
+  .step3 .form-group label {
+    font-size: 22px;
+    font-weight: 600;
+    color: #302F37;
+    width: 30%;
+    margin-bottom: 10px;
+  }
+  @media (min-width: 768px) and (max-width: 991px) {
+    .step3 .form-group label {
+      width: 30%;
+    }
+  }
+  @media (min-width: 576px) and (max-width: 767.98px) {
+    .step3 .form-group label {
+      width: 100%;
+      font-size: 16px;
+    }
+  }
+  @media (max-width: 576px) {
+    .step3 .form-group label {
+      width: 100%;
+      font-size: 16px;
+    }
+  }
+  .step3 .form-group input {
+    border: 0;
+    border-bottom: 1px solid #707070;
+    border-radius: 0;
+    width: 70%;
+    overflow: hidden;
+    background-color: transparent;
+    margin-top: -17px;
+    direction: ltr !important;
+  }
+  .step3 .form-group input:focus-within {
+    outline: none;
+    box-shadow: none;
+  }
+  @media (min-width: 576px) and (max-width: 767.98px) {
+    .step3 .form-group input {
+      width: 100%;
+      margin-top: 0;
+    }
+  }
+  @media (max-width: 576px) {
+    .step3 .form-group input {
+      width: 100%;
+      margin-top: 0;
+    }
+  }
+  
+  .activate {
+    color: #F07C21;
+  }
+  
+  .feedback .rating {
+    display: flex;
+    width: 100%;
+    justify-content: flex-end;
+    overflow: hidden;
+    flex-direction: row-reverse;
+    position: relative;
+  }
+  
+  .feedback .rating-0 {
+    filter: grayscale(100%);
+  }
+  
+  .feedback .rating > input {
+    display: none;
+  }
+  
+  .feedback .rating > label {
+    cursor: pointer;
+    width: 40px;
+    height: 40px;
+    margin-top: auto;
+    background-image: url("data:image/svg+xml;charset=UTF-8,%3csvg xmlns='http://www.w3.org/2000/svg' width='126.729' height='126.73'%3e%3cpath fill='%23e3e3e3' d='M121.215 44.212l-34.899-3.3c-2.2-.2-4.101-1.6-5-3.7l-12.5-30.3c-2-5-9.101-5-11.101 0l-12.4 30.3c-.8 2.1-2.8 3.5-5 3.7l-34.9 3.3c-5.2.5-7.3 7-3.4 10.5l26.3 23.1c1.7 1.5 2.4 3.7 1.9 5.9l-7.9 32.399c-1.2 5.101 4.3 9.3 8.9 6.601l29.1-17.101c1.9-1.1 4.2-1.1 6.1 0l29.101 17.101c4.6 2.699 10.1-1.4 8.899-6.601l-7.8-32.399c-.5-2.2.2-4.4 1.9-5.9l26.3-23.1c3.8-3.5 1.6-10-3.6-10.5z'/%3e%3c/svg%3e");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 76%;
+    margin-right: 6px;
+  }
+  @media (min-width: 576px) and (max-width: 767.98px) {
+    .feedback .rating > label {
+      background-size: 26px;
+      margin-right: 0;
+    }
+  }
+  @media (max-width: 576px) {
+    .feedback .rating > label {
+      background-size: 26px;
+      margin-right: 0;
+    }
+  }
+  
+  .feedback .rating > input:checked ~ label {
+    background-image: url("../img/star-07.png");
+  }
+  
+  .feedback .rating > input:not(:checked) ~ label:hover,
+  .feedback .rating > input:not(:checked) ~ label:hover ~ label {
+    background-image: url("../img/star-07.png");
+  }
+  
+  .feedback-second .rating > input:not(:checked) ~ label:hover,
+  .feedback-second .rating > input:not(:checked) ~ label:hover ~ label {
+    background-image: url("../img/star-07.png");
+  }
+  
+  .feedback-second .rating > input:checked ~ label,
+  .feedback-second .rating > input:checked ~ label ~ label {
+    background-image: url("../img/star-07.png");
+  }
+  
+  .feedback-second .rating {
+    display: flex;
+    width: 100%;
+    justify-content: flex-end;
+    overflow: hidden;
+    flex-direction: row-reverse;
+    position: relative;
+  }
+  
+  .feedback-second .rating > input {
+    display: none;
+  }
+  
+  .feedback-second .rating > label {
+    cursor: pointer;
+    width: 40px;
+    height: 40px;
+    margin-top: auto;
+    background-image: url("data:image/svg+xml;charset=UTF-8,%3csvg xmlns='http://www.w3.org/2000/svg' width='126.729' height='126.73'%3e%3cpath fill='%23e3e3e3' d='M121.215 44.212l-34.899-3.3c-2.2-.2-4.101-1.6-5-3.7l-12.5-30.3c-2-5-9.101-5-11.101 0l-12.4 30.3c-.8 2.1-2.8 3.5-5 3.7l-34.9 3.3c-5.2.5-7.3 7-3.4 10.5l26.3 23.1c1.7 1.5 2.4 3.7 1.9 5.9l-7.9 32.399c-1.2 5.101 4.3 9.3 8.9 6.601l29.1-17.101c1.9-1.1 4.2-1.1 6.1 0l29.101 17.101c4.6 2.699 10.1-1.4 8.899-6.601l-7.8-32.399c-.5-2.2.2-4.4 1.9-5.9l26.3-23.1c3.8-3.5 1.6-10-3.6-10.5z'/%3e%3c/svg%3e");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 76%;
+    transition: 0s;
+    margin-right: 6px;
+  }
+  @media (min-width: 576px) and (max-width: 767.98px) {
+    .feedback-second .rating > label {
+      background-size: 26px;
+      margin-right: 0;
+    }
+  }
+  @media (max-width: 576px) {
+    .feedback-second .rating > label {
+      background-size: 26px;
+      margin-right: 0;
+    }
+  }
+  
+  /* Chrome, Safari, Edge, Opera */
+  input::-webkit-outer-spin-button,
+  input::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+  }
+  
+  /* Firefox */
+  input[type=number] {
+    -moz-appearance: textfield;
+  }
+  
+  .form-control {
+    padding: 1.375rem 0 0.5rem;
+  }
+  
+  /****************/
+  input:focus {
+    outline: none;
+    box-shadow: none;
+  }
+  
+  *:focus {
+    outline: none;
+  }
+  
+  footer {
+    background-color: #302F37;
+  }
+  footer .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px 15px;
+  }
+  @media (min-width: 576px) and (max-width: 767.98px) {
+    footer .container {
+      padding: 15px 30px !important;
+    }
+  }
+  @media (max-width: 576px) {
+    footer .container {
+      padding: 15px 30px !important;
+    }
+  }
+  @media (max-width: 332px) {
+    footer .container {
+      flex-direction: column;
+    }
+  }
+  footer .container p {
+    color: #FFF;
+    font-size: 16px;
+  }
+  @media (min-width: 992px) and (max-width: 1199px) {
+    footer .container p {
+      font-size: 15px;
+    }
+  }
+  @media (min-width: 768px) and (max-width: 991px) {
+    footer .container p {
+      font-size: 15px;
+    }
+  }
+  @media (min-width: 576px) and (max-width: 767.98px) {
+    footer .container p {
+      font-size: 13px;
+    }
+  }
+  @media (max-width: 576px) {
+    footer .container p {
+      font-size: 9px;
+    }
+  }
+  @media (max-width: 332px) {
+    footer .container p {
+      font-size: 12px;
+    }
+  }
+  footer .container .desktop-footer {
+    display: flex;
+  }
+  @media (min-width: 576px) and (max-width: 767.98px) {
+    footer .container .desktop-footer {
+      display: none;
+    }
+  }
+  @media (max-width: 576px) {
+    footer .container .desktop-footer {
+      display: none;
+    }
+  }
+  footer .container li:not(:last-of-type) {
+    margin-right: 152px;
+  }
+  @media (min-width: 992px) and (max-width: 1199px) {
+    footer .container li:not(:last-of-type) {
+      margin-right: 70px;
+    }
+  }
+  @media (min-width: 768px) and (max-width: 991px) {
+    footer .container li:not(:last-of-type) {
+      margin-right: 70px;
+    }
+  }
+  @media (min-width: 576px) and (max-width: 767.98px) {
+    footer .container li:not(:last-of-type) {
+      margin-right: 20px;
+    }
+  }
+  footer .container a {
+    color: #FFF;
+    font-size: 16px;
+    font-weight: 400;
+  }
+  @media (min-width: 992px) and (max-width: 1199px) {
+    footer .container a {
+      font-size: 16px;
+    }
+  }
+  @media (min-width: 768px) and (max-width: 991px) {
+    footer .container a {
+      font-size: 15px;
+    }
+  }
+  footer .container a:hover {
+    opacity: 0.8;
+    text-decoration: none;
+  }
+  footer .container .mobile-footer {
+    display: none;
+  }
+  @media (min-width: 576px) and (max-width: 767.98px) {
+    footer .container .mobile-footer {
+      display: flex;
+    }
+  }
+  @media (max-width: 576px) {
+    footer .container .mobile-footer {
+      display: flex;
+    }
+  }
+  footer .container .mobile-footer li {
+    margin-right: 152px;
+  }
+  @media (min-width: 992px) and (max-width: 1199px) {
+    footer .container .mobile-footer li {
+      margin-right: 70px;
+    }
+  }
+  @media (min-width: 768px) and (max-width: 991px) {
+    footer .container .mobile-footer li {
+      margin-right: 70px;
+    }
+  }
+  @media (min-width: 576px) and (max-width: 767.98px) {
+    footer .container .mobile-footer li {
+      margin-right: 20px;
+    }
+  }
+  @media (max-width: 576px) {
+    footer .container .mobile-footer li {
+      margin-right: 4px;
+    }
+  }
+  @media (max-width: 420px) {
+    footer .container .mobile-footer li {
+      margin-right: 10px;
+    }
+  }
+  footer .container .mobile-footer li a {
+    border: 2px solid #FFF;
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+    display: block;
+    text-align: center;
+    line-height: 33px;
+  }
+  footer .container .mobile-footer li a:hover {
+    opacity: 0.8;
+    text-decoration: none;
+  }
+  footer .container .mobile-footer li a img {
+    width: 20px;
+    height: 20px;
+    transition: all 0.4s ease-in-out;
+  }
+  footer .container .mobile-footer li a img:hover {
+    transform: scale(1.1);
+  }
+  @media (max-width: 576px) {
+    footer .container .mobile-footer li a img {
+      width: 15px;
+      height: 15px;
+    }
+  }
+  footer .container .mobile-footer li a .linked {
+    width: 25px;
+    height: 25px;
+  }
+  
+  @media (min-width: 1200px) {
+    .container, .container-lg, .container-md, .container-sm, .container-xl {
+      max-width: 1040px;
+    }
+  }
+  
+  /*# sourceMappingURL=main.css.map */

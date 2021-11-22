@@ -1,0 +1,32 @@
+html {
+    font-size: 100%;
+    overflow-x: hidden;
+}
+
+body {
+    background: $secondary;
+    font-size: rem(20px);
+    font-family: $primary-font;
+    color: $text-color;
+    line-height: 1;
+    margin: 0;
+    overflow-x: hidden;
+}
+
+.wrapper {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+@media (min-width: 1300px) {
+    .container {
+        max-width: 1240px;
+    }
+}
+
+@media screen and (max-width: 991px) {
+    html {
+        font-size: 80%;
+    }
+}
