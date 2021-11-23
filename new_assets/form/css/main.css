@@ -2815,5 +2815,77 @@ body {
       max-width: 1040px;
     }
   }
+  .custom-control-input:focus ~ .custom-control-label::before {
+    box-shadow: 0 0 0 0 rgba(0,123,255,.25) !important
+  }
+  .custom-control-input[type=radio] {
+    /* visibility: hidden; */
+    position: absolute;
+    left: 24px;
+    cursor: pointer;
+    top: 0px;
+    width: 28px !important;
+    height: 28px !important;
+    z-index: 0 !important;
+  }
+  .custom-control-input[type=radio] + label {
+    cursor:pointer;
+  }
+  .custom-control-input[type=radio] + label:before {
+    content: "";
+    position: absolute;
+    left: 0;
+    top: 0px;
+    width: 28px;
+    height: 28px;
+    border-radius: 100%;
+    background: #d1d1d1;
+    display:inline-block;
+    vertical-align: baseline;
+    transition: 0.3s;
+    border:1px solid #ccc;
+    transition: 0.3s;
+  }
+  .custom-control-input[type=radio] + label:before{
+    border-radius:50%;
+    width:28px;
+    height: 28px;
+  }
+  .custom-control-input[type=radio]:checked + label:before{
+    background: #F07C21 !important;
+    border-color: #F07C21 !important;
+    width: 28px;
+    height: 28px;
+    top: 0px;
+    left: 0px;
+    border-radius: 100%;
+    -webkit-transition: all 0.2s ease;
+    transition: all 0.2s ease;
+  }
+
+  .was-validated .custom-control-input:valid ~ .custom-control-label::before {
+    border-color: transparent;
+  }
+
+  .was-validated .custom-control-input:invalid ~ .custom-control-label::before {
+    border-color: #dc3545;
+    border: 2px solid;
+  }
+
+  .following .next .btn-next {
+    background-color: #1280bc;
+    width: 166px;
+    height: 70px;
+    color: #FFF;
+    text-align: center;
+    line-height: 0px !important;
+    font-size: 23px;
+    font-weight: 500;
+    text-transform: uppercase;
+    border-radius: 0px !important;
+  }
+  .following .next input.btn-next {
+    width: 25% !important;
+  }
   
   /*# sourceMappingURL=main.css.map */
